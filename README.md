@@ -19,4 +19,14 @@ npm install
 npm run docs:dev
 ```
 
-Open: [http://localhost:5173/](http://localhost:5173/)
+Access the site at: [http://localhost:8080/](http://localhost:8080/)
+
+## Build and Test Locally
+
+```
+cd docs/
+npm run docs:build
+npm run docs:preview
+```
+
+Access the site at: [http://localhost:8080/](http://localhost:8080/)

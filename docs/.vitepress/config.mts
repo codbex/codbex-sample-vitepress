@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "codbex",
   description: "High-Productivity Application Platform for Developers, Software Vendors and Enterprises",
+  base: '/codbex-sample-vitepress',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -24,6 +25,12 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/codbex/' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/company/codbex/' }
-    ]
+    ],
+    lastUpdated: {
+      formatOptions: {
+        dateStyle: 'long',
+        timeStyle: undefined,
+      }
+    }
   }
 })

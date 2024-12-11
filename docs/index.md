@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "codbex"
-  text: "High-Productivity Application Platform for Developers, Software Vendors and Enterprises"
-  tagline: My great project tagline
+  text: "High-Productivity Application Platform"
+  tagline: for Developers, Software Vendors and Enterprises to design, develop and deliver their industry solutions
   actions:
     - theme: brand
       text: Markdown Examples
