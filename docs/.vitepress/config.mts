@@ -5,7 +5,14 @@ export default defineConfig({
   title: "codbex",
   description: "High-Productivity Application Platform for Developers, Software Vendors and Enterprises",
   base: '/codbex-sample-vitepress',
+  sitemap: {
+    hostname: 'https://www.codbex.com/codbex-sample-vitepress/'
+  },
+  head: [
+    ['link', { rel: 'icon', href: '/codbex-sample-vitepress/favicon.ico' }]
+  ],
   themeConfig: {
+    logo: '/logo.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
