@@ -26,10 +26,18 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/codbex/' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/company/codbex/' }
     ],
+
     lastUpdated: {
       formatOptions: {
         dateStyle: 'long',
         timeStyle: undefined,
+      }
+    },
+
+    search: {
+      provider: 'local',
+      options: {
+        detailedView: true,
       }
     }
   }

@@ -11,6 +11,8 @@ Sample Static Site Generation (SSG) based on [VitePress](https://vitepress.dev/)
 - [Using a Custom Theme](https://vitepress.dev/guide/custom-theme)
 - [Deploy Your VitePress Site](https://vitepress.dev/guide/deploy)
 
+> Check [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-www-codbex-com-codbex-sample-vitepress/t79b10pif9?form_factor=mobile) for the codbex-sample-vitepress site.
+
 ## Development
 
 ```
