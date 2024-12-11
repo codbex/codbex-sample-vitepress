@@ -8,6 +8,7 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://www.codbex.com/codbex-sample-vitepress/'
   },
+  cleanUrls: true,
   head: [
     ['link', { rel: 'icon', href: '/codbex-sample-vitepress/favicon.ico' }]
   ],
@@ -46,6 +47,10 @@ export default defineConfig({
       options: {
         detailedView: true,
       }
+    },
+
+    editLink: {
+      pattern: 'https://github.com/codbex/codbex-sample-vitepress/edit/main/docs/:path',
     }
   }
 })

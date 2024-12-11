@@ -1,6 +1,68 @@
 ---
 outline: deep
+editLink: false
 ---
+
+# Code Groups
+
+::: code-group
+
+```js [config.js]
+/**
+ * @type {import('vitepress').UserConfig}
+ */
+const config = {
+  // ...
+}
+
+export default config
+```
+
+```ts [config.ts]
+import type { UserConfig } from 'vitepress'
+
+const config: UserConfig = {
+  // ...
+}
+
+export default config
+```
+
+:::
+
+# Colored Diffs in Code Blocks
+
+```js
+export default {
+  data () {
+    return {
+      msg: 'Removed' // [!code --]
+      msg: 'Added' // [!code ++]
+    }
+  }
+}
+```
+
+# Focus in Code Blocks
+
+```js
+export default {
+  data () {
+    return {
+      msg: 'Focused!' // [!code focus]
+    }
+  }
+}
+```
+
+# Line Highlighting in Code Blocks
+
+```js {1-3}
+console.log('1') // highlighted
+console.log('2')
+console.log('3') // highlighted
+console.log('4') // highlighted
+```
 
 # Runtime API Examples
 
