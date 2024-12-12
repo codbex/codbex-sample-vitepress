@@ -17,17 +17,35 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/examples/markdown-examples' },
+      { text: 'Products', link: '/products/atlas' },
       { text: 'About', link: '/about' }
     ],
 
     sidebar: {
-      '/examples': [
+      '/products': [
         {
-          text: 'Examples',
+          text: 'Products',
           items: [
-            { text: 'Markdown Examples', link: '/examples/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/examples/api-examples' },
+            { text: 'Atlas', link: '/products/atlas' },
+            { text: 'Helios', link: '/products/helios' },
+            { text: 'Hades', link: '/products/hades' },
+            { text: 'Oceanus', link: '/products/oceanus' },
+            { text: 'Hyperion', link: '/products/hyperion' },
+            { text: 'Iapetus', link: '/products/iapetus' },
+            { text: 'Rhea', link: '/products/rhea' },
+            { text: 'Kronos', link: '/products/kronos' },
+          ]
+        }
+      ],
+      '/legal': [
+        {
+          text: 'Legal',
+          items: [
+            { text: 'Privacy Policy', link: '/legal/privacy-policy' },
+            { text: 'Terms of Service', link: '/legal/terms-of-service' },
+            { text: 'Code of Business Conduct', link: '/legal/code-of-conduct' },
+            { text: 'e-Communication Policy', link: '/legal/e-communications-policy' },
+            { text: 'Vendor Terms', link: '/legal/vendor-terms' },
           ]
         }
       ],
@@ -54,6 +72,11 @@ export default defineConfig({
 
     editLink: {
       pattern: 'https://github.com/codbex/codbex-sample-vitepress/edit/main/docs/:path',
+    },
+
+    footer: {
+      copyright: 'Copyright © 2022-present codbex ltd.',
+      message: '<a href="legal/terms-of-service">Terms</a> & <a href="legal/privacy-policy">Privacy</a>'
     }
   }
 })
