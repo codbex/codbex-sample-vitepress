@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Products
-      link: /products/atlas
+      link: /products
     - theme: alt
       text: Try it Out
       link: https://platform.eu1.codbex.com/

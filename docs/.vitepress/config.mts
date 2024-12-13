@@ -17,7 +17,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Products', link: '/products/atlas' },
+      { text: 'Products', link: '/products' },
+      { text: 'Pricing', link: '/pricing' },
+      { text: 'Documentation', link: '/documentation' },
       {
         text: 'Updates',
         items: [
@@ -28,7 +30,6 @@ export default defineConfig({
         ]
       },
       { text: 'About', link: '/about' },
-      { text: 'Documentation', link: '/documentation' },
     ],
 
     sidebar: {
@@ -44,6 +45,23 @@ export default defineConfig({
             { text: 'Iapetus', link: '/products/iapetus' },
             { text: 'Rhea', link: '/products/rhea' },
             { text: 'Kronos', link: '/products/kronos' },
+          ]
+        }
+      ],
+      '/pricing': [
+        {
+          text: 'Pricing',
+          items: [
+            { text: 'Community', link: '/pricing/community' },
+            { text: 'Professional', link: '/pricing/professional' },
+            { text: 'Enterprise', link: '/pricing/enterprise' },
+            { 
+              text: 'Services',
+              link: '/pricing/services',
+              items: [
+                { text: 'Development', link: '/pricing/services/development' },
+                { text: 'Consulting', link: '/pricing/services/consulting' },
+            ]},
           ]
         }
       ],
