@@ -15,12 +15,24 @@ hero:
       link: https://platform.eu1.codbex.com/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Instant App Modeling
+    details: Design, generate, and publish applications in minutes with our visual model-driven development tools
+    link: /documentation
+    linkText: Learn more
+    icon:
+      src: /images/products/Atlas.svg
+  - title: Tailored Process Automation
+    details: Publish and test workflows, seamlessly integrating with your domain models for dynamic automation
+    link: /documentation
+    linkText: Learn more
+    icon:
+      src: /images/products/Hyperion.svg
+  - title: Seamless UI Creation
+    details: Build forms, integrate seamlessly with your microservice, and publish for immediate use
+    link: /documentation
+    linkText: Learn more
+    icon:
+        src: /images/products/Oceanus.svg
 ---
 
 <div class="content">
