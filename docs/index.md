@@ -19,20 +19,17 @@ features:
     details: Design, generate, and publish applications in minutes with our visual model-driven development tools
     link: /documentation
     linkText: Learn more
-    icon:
-      src: /images/products/Atlas.svg
+    icon: ⚡
   - title: Tailored Process Automation
     details: Publish and test workflows, seamlessly integrating with your domain models for dynamic automation
     link: /documentation
     linkText: Learn more
-    icon:
-      src: /images/products/Hyperion.svg
+    icon: 📊
   - title: Seamless UI Creation
     details: Build forms, integrate seamlessly with your microservice, and publish for immediate use
     link: /documentation
     linkText: Learn more
-    icon:
-        src: /images/products/Oceanus.svg
+    icon: 🖥️
 ---
 
 <div class="content">
