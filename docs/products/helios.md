@@ -117,5 +117,5 @@ Support depends on the plan you selected from <a href="https://www.codbex.com/pr
 
 ### References
 
-* [Ultimate Cloud IDE for JavaScript and TypeScript](/marketing/2023/09/26/helios-ultimate-cloud-ide-for-javascript-and-typescript/)
-* [Snowflake and Helios - A Harmonious Tale of Data and Development](/technology/2024/04/03/snowflake-and-helios/)
+* [Ultimate Cloud IDE for JavaScript and TypeScript](/marketing/2023/09/26/helios-ultimate-cloud-ide-for-javascript-and-typescript)
+* [Snowflake and Helios - A Harmonious Tale of Data and Development](/technology/2024/04/03/snowflake-and-helios)

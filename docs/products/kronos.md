@@ -309,7 +309,7 @@ The Kronos Edition is designed for organizations and development teams leveragin
 
 - How long will Kronos be supported?
 
-  > Kronos is an open source project with community support. Everyone can join and make a [PR](CONTRIBUTING.md). In fact SAP discontinued official support to project "XSK", and this fork maintained by the same developers is prove that the approach is viable and useful. The company codbex provide enterprise support for Kronos based runtimes.
+  > Kronos is an open source project with community support. Everyone can join and make a [PR](https://github.com/codbex/codbex-kronos/pulls). In fact SAP discontinued official support to project "XSK", and this fork maintained by the same developers is prove that the approach is viable and useful. The company codbex provide enterprise support for Kronos based runtimes.
 
 - Should future developments be based on Kronos?
 
@@ -317,7 +317,6 @@ The Kronos Edition is designed for organizations and development teams leveragin
 
 - What about the tooling? Do we get state of the art tooling for maintaining and enhancing Kronos?
 
-  > Kronos tooling is based on [codbex](/documentation/tooling/) and in the near future it will be possible to maintain Kronos projects with any modern IDE like VSCode, Eclipse Theia, etc.
 
 - What about the ops aspects - will Kronos be smoothly integrated into a state-of-the-art lifecycle and ops management (be it SAP-based or non-SAP based like GitHub Actions?
 
@@ -336,5 +335,5 @@ Support depends on the plan you selected from <a href="https://www.codbex.com/pr
 
 ### References
 
-* [Timeless Solution for Modern Challenges](/marketing/2024/06/05/kronos-timeless-solution/)
-* [Run easily ABAP code for free in 5 minutes](/technology/2024/06/25/run-abap-for-free/)
+* [Timeless Solution for Modern Challenges](/marketing/2024/06/05/kronos-timeless-solution)
+* [Run easily ABAP code for free in 5 minutes](/technology/2024/06/25/run-abap-for-free)

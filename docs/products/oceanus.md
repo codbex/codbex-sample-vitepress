@@ -82,4 +82,4 @@ Support depends on the plan you selected from <a href="https://www.codbex.com/pr
 
 ### References
 
-* [Dive into Innovation with Oceanus](/marketing/2024/01/23/oceanus-dive-into-innovation/)
+* [Dive into Innovation with Oceanus](/marketing/2024/01/23/oceanus-dive-into-innovation)

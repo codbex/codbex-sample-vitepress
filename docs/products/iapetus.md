@@ -138,5 +138,5 @@ Support depends on the plan you selected from <a href="https://www.codbex.com/pr
 
 ### References
 
-* [Unleash Service Integrations with Iapetus](/marketing/2024/03/26/iapetus-unleash-service-integration/)
-* [Implement ETL for Sales Orders](/technology/2024/08/19/orders-etl/)
+* [Unleash Service Integrations with Iapetus](/marketing/2024/03/26/iapetus-unleash-service-integration)
+* [Implement ETL for Sales Orders](/technology/2024/08/15/orders-etl)

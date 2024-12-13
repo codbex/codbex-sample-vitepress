@@ -128,5 +128,5 @@ Support depends on the plan you selected from <a href="https://www.codbex.com/pr
 
 ### References
 
-* [Explore and Manage Databases in the Cloud](/marketing/2023/10/11/hades-explore-and-manage-databases-in-the-cloud/)
+* [Explore and Manage Databases in the Cloud](/marketing/2023/10/11/hades-explore-and-manage-databases-in-the-cloud)
 
