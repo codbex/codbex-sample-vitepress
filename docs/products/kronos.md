@@ -317,6 +317,7 @@ The Kronos Edition is designed for organizations and development teams leveragin
 
 - What about the tooling? Do we get state of the art tooling for maintaining and enhancing Kronos?
 
+  > Kronos tooling is based on [codbex](/documentation/tooling/) and in the near future it will be possible to maintain Kronos projects with any modern IDE like VSCode, Eclipse Theia, etc.
 
 - What about the ops aspects - will Kronos be smoothly integrated into a state-of-the-art lifecycle and ops management (be it SAP-based or non-SAP based like GitHub Actions?
 

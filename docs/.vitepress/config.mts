@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "codbex",
-  description: "High-Productivity Application Platform for Developers, Software Vendors and Enterprises",
+  title: 'codbex',
+  description: 'High-Productivity Application Platform for Developers, Software Vendors and Enterprises',
   base: '/codbex-sample-vitepress',
   sitemap: {
     hostname: 'https://www.codbex.com/codbex-sample-vitepress/'
@@ -27,7 +27,8 @@ export default defineConfig({
           { text: 'Sales', link: '/sales' },
         ]
       },
-      { text: 'About', link: '/about' }
+      { text: 'About', link: '/about' },
+      { text: 'Documentation', link: '/documentation' },
     ],
 
     sidebar: {
@@ -103,7 +104,256 @@ export default defineConfig({
         {
           text: 'Sales',
           items: [
-            { text: 'How the "White-Label" Business Model Works?', link: '/sales/2022/07/14/how-white-label-works' },
+            { text: `How the 'White-Label' Business Model Works?`, link: '/sales/2022/07/14/how-white-label-works' },
+          ]
+        }
+      ],
+      '/documentation': [
+        {
+          text: 'Documentation',
+          items: [
+            { text: 'Documentation Portal', link: '/documentation/' },
+            { text: 'Getting Started', link: '/documentation/getting-started' },
+            // { text: 'Solutions', link: '/solutions' },
+            { text: 'Announcements', link: '/marketing' },
+            { text: 'Tutorials', link: '/technology' },
+            {
+              text: 'Configurations',
+              link: '/documentation/configurations',
+              items: [
+                {
+                  text: 'Basic Authentication',
+                  link: '/documentation/configurations/basic-auth',
+                }
+              ]
+            },
+          ]
+        },
+        {
+          text: 'Platform',
+          items: [
+            { text: 'Platform', link: '/documentation/platform/' },
+            { text: 'Languages', link: '/documentation/platform/languages/' },
+            {
+              text: 'Engines',
+              link: '/documentation/platform/engines/',
+              collapsed: true,
+              items: [
+                { text: 'JavaScript', link: '/documentation/platform/engines/javascript' },
+                { text: 'TypeScript', link: '/documentation/platform/engines/typescript' },
+                { text: 'Python', link: '/documentation/platform/engines/python' },
+                { text: 'Command', link: '/documentation/platform/engines/command' },
+                { text: 'Jobs', link: '/documentation/platform/engines/jobs' },
+                { text: 'Listeners', link: '/documentation/platform/engines/listeners' },
+                { text: 'Web', link: '/documentation/platform/engines/web' },
+                { text: 'Wiki', link: '/documentation/platform/engines/wiki' },
+                { text: 'WebSockets', link: '/documentation/platform/engines/websockets' },
+                { text: 'Security', link: '/documentation/platform/engines/security' },
+                { text: 'OpenAPI', link: '/documentation/platform/engines/openapi' },
+                { text: 'OData', link: '/documentation/platform/engines/odata' },
+                { text: 'Templates', link: '/documentation/platform/engines/templates' },
+                { text: 'CMS', link: '/documentation/platform/engines/cms' },
+                { text: 'BPM', link: '/documentation/platform/engines/bpm' },
+                { text: 'Integrations', link: '/documentation/platform/engines/integrations' },
+                { text: 'FTP', link: '/documentation/platform/engines/ftp' },
+                { text: 'SFTP', link: '/documentation/platform/engines/sftp' }
+              ]
+            },
+            {
+              text: 'Artefacts',
+              link: '/documentation/platform/artefacts/',
+              collapsed: true,
+              items: [
+                { text: 'Access', link: '/documentation/platform/artefacts/access' },
+                { text: 'BPMN', link: '/documentation/platform/artefacts/bpmn' },
+                { text: 'Camel', link: '/documentation/platform/artefacts/camel' },
+                { text: 'Command', link: '/documentation/platform/artefacts/command' },
+                { text: 'Confluence', link: '/documentation/platform/artefacts/confluence' },
+                { text: 'CSV', link: '/documentation/platform/artefacts/csv' },
+                { text: 'CSVIM', link: '/documentation/platform/artefacts/csvim' },
+                { text: 'Datasource', link: '/documentation/platform/artefacts/datasource' },
+                { text: 'DSM', link: '/documentation/platform/artefacts/dsm' },
+                { text: 'EDM', link: '/documentation/platform/artefacts/edm' },
+                { text: 'Entity', link: '/documentation/platform/artefacts/entity' },
+                { text: 'Exposes', link: '/documentation/platform/artefacts/exposes' },
+                { text: 'Extension', link: '/documentation/platform/artefacts/extension' },
+                { text: 'Extension Point', link: '/documentation/platform/artefacts/extensionpoint' },
+                { text: 'Form', link: '/documentation/platform/artefacts/form' },
+                { text: 'HTML', link: '/documentation/platform/artefacts/html' },
+                { text: 'Job', link: '/documentation/platform/artefacts/job' },
+                { text: 'JavaScript', link: '/documentation/platform/artefacts/js' },
+                { text: 'Listener', link: '/documentation/platform/artefacts/listener' },
+                { text: 'Markdown', link: '/documentation/platform/artefacts/markdown' },
+                { text: 'Model', link: '/documentation/platform/artefacts/model' },
+                { text: 'OData', link: '/documentation/platform/artefacts/odata' },
+                { text: 'OpenAPI', link: '/documentation/platform/artefacts/openapi' },
+                { text: 'Python', link: '/documentation/platform/artefacts/python' },
+                { text: 'Role', link: '/documentation/platform/artefacts/role' },
+                { text: 'Schema', link: '/documentation/platform/artefacts/schema' },
+                { text: 'Table', link: '/documentation/platform/artefacts/table' },
+                { text: 'Template', link: '/documentation/platform/artefacts/template' },
+                { text: 'TypeScript', link: '/documentation/platform/artefacts/ts' },
+                { text: 'View', link: '/documentation/platform/artefacts/view' },
+                { text: 'WebSocket', link: '/documentation/platform/artefacts/websocket' },
+                {
+                  text: 'Additions',
+                  link: '/documentation/platform/artefacts/additions',
+                  items: [
+                    { text: 'ABAP', link: '/documentation/platform/artefacts/additions/abap' }
+                  ]
+                }
+              ]
+            },
+            { text: 'SDK', link: '/documentation/platform/sdk' },
+            { text: 'Widgets', link: '/documentation/platform/widgets' },
+            { text: 'Services', link: '/documentation/platform/services' }
+            // { text: 'Templates', link: '/documentation/platform/templates' }
+          ]
+        },
+        {
+          text: 'Tooling',
+          items: [
+            { text: 'Tooling', link: '/documentation/tooling/' },
+            {
+              text: 'Workbench',
+              link: '/documentation/tooling/workbench/',
+              collapsed: true,
+              items: [
+                { text: 'Projects', link: '/documentation/tooling/workbench/projects' },
+                { text: 'Import', link: '/documentation/tooling/workbench/import' },
+                { text: 'Search', link: '/documentation/tooling/workbench/search' },
+                { text: 'Properties', link: '/documentation/tooling/workbench/properties' },
+                { text: 'Console', link: '/documentation/tooling/workbench/console' },
+                { text: 'Preview', link: '/documentation/tooling/workbench/preview' },
+                { text: 'Problems', link: '/documentation/tooling/workbench/problems' },
+                { text: 'Logs', link: '/documentation/tooling/workbench/logs' },
+                { text: 'Loggers', link: '/documentation/tooling/workbench/loggers' },
+                { text: 'Code Editor', link: '/documentation/tooling/workbench/code-editor' }
+              ]
+            },
+            {
+              text: 'Git',
+              link: '/documentation/tooling/git/',
+              collapsed: true,
+              items: [
+                { text: 'Git Projects', link: '/documentation/tooling/git/git-projects' },
+                { text: 'Local Branches', link: '/documentation/tooling/git/local-branches' },
+                { text: 'Remote Branches', link: '/documentation/tooling/git/remote-branches' },
+                { text: 'Staging', link: '/documentation/tooling/git/staging' },
+                { text: 'History', link: '/documentation/tooling/git/history' },
+                { text: 'Diff Editor', link: '/documentation/tooling/git/diff-editor' }
+              ]
+            },
+            { text: 'Debugger', link: '/documentation/tooling/debugger/' },
+            {
+              text: 'Databases',
+              link: '/documentation/tooling/databases/',
+              collapsed: true,
+              items: [
+                { text: 'Explorer', link: '/documentation/tooling/databases/explorer' },
+                { text: 'SQL', link: '/documentation/tooling/databases/sql' },
+                { text: 'NoSQL', link: '/documentation/tooling/databases/nosql' },
+                { text: 'Result', link: '/documentation/tooling/databases/result' },
+                { text: 'Databases', link: '/documentation/tooling/databases/databases' },
+                { text: 'Transfer', link: '/documentation/tooling/databases/transfer' },
+                { text: 'Export & Import', link: '/documentation/tooling/databases/export-import' },
+                { text: 'Anonymization', link: '/documentation/tooling/databases/data-anonymization' }
+              ]
+            },
+            {
+              text: 'Documents',
+              link: '/documentation/tooling/documents/',
+              collapsed: true,
+              items: [
+                { text: 'Explorer', link: '/documentation/tooling/documents/explorer' },
+                { text: 'Preview', link: '/documentation/tooling/documents/preview' }
+              ]
+            },
+            {
+              text: 'Processes',
+              link: '/documentation/tooling/processes/',
+              collapsed: true,
+              items: [
+                { text: 'Definitions', link: '/documentation/tooling/processes/definitions' },
+                { text: 'Instances', link: '/documentation/tooling/processes/instances' },
+                { text: 'Context', link: '/documentation/tooling/processes/context' },
+                { text: 'Dead-Letter Jobs', link: '/documentation/tooling/processes/dead-letter-jobs' },
+                { text: 'Viewer', link: '/documentation/tooling/processes/viewer' },
+                { text: 'Inbox', link: '/documentation/tooling/processes/inbox' },
+                { text: 'Modeler', link: '/documentation/tooling/processes/modeler' }
+              ]
+            },
+            { text: 'Integrations', link: '/documentation/tooling/integrations/' },
+            { text: 'Operations', link: '/documentation/tooling/operations/' },
+            { text: 'Terminal', link: '/documentation/tooling/terminal/' },
+            {
+              text: 'Modeling',
+              link: '/documentation/tooling/modeling/',
+              collapsed: true,
+              items: [
+                { text: 'EDM', link: '/documentation/tooling/modeling/edm' },
+                { text: 'Form', link: '/documentation/tooling/modeling/form' }
+              ]
+            },
+            { text: 'Extensibility', link: '/documentation/tooling/extensibility' },
+            { text: 'Compatibility', link: '/documentation/tooling/compatibility' },
+            { text: 'Multitenancy', link: '/documentation/tooling/multitenancy' }
+          ]
+        },
+        {
+          text: 'Modules',
+          items: [
+            { text: 'Modules', link: '/documentation/modules/' },
+            {
+              text: 'Sales',
+              link: '/documentation/modules/sales/',
+              collapsed: true,
+              items: [
+                { text: 'Lead', link: '/documentation/modules/sales/lead' },
+                { text: 'Opportunity', link: '/documentation/modules/sales/opportunity' },
+                { text: 'Quotation', link: '/documentation/modules/sales/quotation' },
+                { text: 'Sales Order', link: '/documentation/modules/sales/sales-order' },
+                { text: 'Sales Invoice', link: '/documentation/modules/sales/sales-invoice' },
+                { text: 'Customer Payment', link: '/documentation/modules/sales/customer-payment' }
+              ]
+            },
+            {
+              text: 'Purchasing',
+              link: '/documentation/modules/purchasing/',
+              collapsed: true,
+              items: [
+                { text: 'Purchase Requisition', link: '/documentation/modules/purchasing/purchase-requisition' },
+                { text: 'Purchase Order', link: '/documentation/modules/purchasing/purchase-order' },
+                { text: 'Request for Quotation', link: '/documentation/modules/purchasing/request-for-quotation' },
+                { text: 'Quotation Comparison', link: '/documentation/modules/purchasing/quotation-comparison' },
+                { text: 'Supplier Agreement', link: '/documentation/modules/purchasing/supplier-agreement' },
+                { text: 'Debit Note', link: '/documentation/modules/purchasing/debit-note' },
+                { text: 'Purchase Invoice', link: '/documentation/modules/purchasing/purchase-invoice' },
+                { text: 'Supplier Payment', link: '/documentation/modules/purchasing/supplier-payment' }
+              ]
+            },
+            {
+              text: 'Inventory',
+              link: '/documentation/modules/inventory/',
+              collapsed: true,
+              items: [
+                { text: 'Goods Receipt', link: '/documentation/modules/inventory/goods-receipt' },
+                { text: 'Goods Issue', link: '/documentation/modules/inventory/goods-issue' },
+                { text: 'Stock Transfer', link: '/documentation/modules/inventory/stock-transfer' },
+                { text: 'Stock Return', link: '/documentation/modules/inventory/stock-return' },
+                { text: 'Stock Record', link: '/documentation/modules/inventory/stock-record' },
+                { text: 'Stock Adjustment', link: '/documentation/modules/inventory/stock-adjustment' },
+                { text: 'SKU Listing', link: '/documentation/modules/inventory/sku-listing' },
+                { text: 'Store', link: '/documentation/modules/inventory/store' }
+              ]
+            },
+            {
+              text: 'Reference Data', link: '/documentation/modules/reference-data/',
+              collapsed: true,
+              items: [
+                { text: 'Units of Measures', link: '/documentation/modules/reference-data/uom' }
+              ]
+            }
           ]
         }
       ],
@@ -134,7 +384,7 @@ export default defineConfig({
 
     footer: {
       copyright: 'Copyright © 2022-present codbex ltd.',
-      message: '<a href="legal/terms-of-service">Terms</a> & <a href="legal/privacy-policy">Privacy</a>'
+      message: `<a href='legal/terms-of-service'>Terms</a> & <a href='legal/privacy-policy'>Privacy</a>`
     },
 
     externalLinkIcon: true
