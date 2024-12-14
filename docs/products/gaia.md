@@ -1,6 +1,12 @@
 ---
 title: Gaia Edition
 editLink: false
+
+layout: home
+
+hero:
+  name: Gaia Edition
+  text: Runtime basis
 ---
 
 <div class="product-tag"><a href="https://github.com/codbex/codbex-gaia" target="_blank" class="product-link">Source Code</a></div>

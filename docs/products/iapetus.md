@@ -1,11 +1,17 @@
 ---
 title: Iapetus Edition
 editLink: false
+
+layout: home
+
+hero:
+  name: Iapetus Edition
+  text: Integrations
 ---
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
    <img src="/images/products/Iapetus.svg" style="width: 30%; !important;"/>
-</div>
+</div> -->
 
 <div class="product-tag"><a href="https://github.com/codbex/codbex-iapetus" target="_blank" class="product-link">Source Code</a></div>
 
@@ -29,6 +35,7 @@ The Iapetus Edition is designed for organizations and development teams seeking 
 
 ### Key Features:
 
+<div class="content">
 <section>
     <div class="container flex">
         <div class="text">
@@ -123,6 +130,7 @@ The Iapetus Edition is designed for organizations and development teams seeking 
         </div>
     </div>
 </section>
+</div>
 
 * User/role-based security model
 * Modular architecture and allows to extend with own plugins

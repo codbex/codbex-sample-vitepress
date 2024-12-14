@@ -31,10 +31,6 @@ features:
     Support via e-mail with reponse time of two business hours"
     link: /pricing/enterprise
     linkText: Learn more
-  - title: Services
-    details: "In addition, you can always count on us for support, as we also offer development and consulting services at attractive prices."
-    link: /pricing/services
-    linkText: Learn more
 ---
 <br>
 <br>

@@ -1,11 +1,17 @@
 ---
 title: Hades Edition
 editLink: false
+
+layout: home
+
+hero:
+  name: Hades Edition
+  text: Databases
 ---
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
    <img src="/images/products/Hades.svg" style="width: 30%; !important;"/>
-</div>
+</div> -->
 
 <div class="product-tag"><a href="https://github.com/codbex/codbex-hades" target="_blank" class="product-link">Source Code</a></div>
 
@@ -22,6 +28,7 @@ The Hades Edition is tailored for database administrators and data professionals
 
 ### Key Features:
 
+<div class="content">
 <section>
     <div class="container flex">
         <div class="text">
@@ -103,6 +110,7 @@ The Hades Edition is tailored for database administrators and data professionals
         </div>
     </div>
 </section>
+</div>
 
 
 * Multiple databases support

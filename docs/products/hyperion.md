@@ -1,11 +1,17 @@
 ---
 title: Hyperion Edition
 editLink: false
+
+layout: home
+
+hero:
+  name: Hyperion Edition
+  text: Processes
 ---
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
    <img src="/images/products/Hyperion.svg" style="width: 30%; !important;"/>
-</div>
+</div> -->
 
 <div class="product-tag"><a href="https://github.com/codbex/codbex-hyperion" target="_blank" class="product-link">Source Code</a></div>
 
@@ -30,6 +36,7 @@ The Hyperion Edition is designed for organizations and development teams seeking
 
 ### Key Features:
 
+<div class="content">
 <section>
     <div class="container flex">
         <div class="text">
@@ -112,6 +119,7 @@ The Hyperion Edition is designed for organizations and development teams seeking
         </div>
     </div>
 </section>
+</div>
 
 * User/role-based security model
 * Modular architecture and allows to extend with own plugins

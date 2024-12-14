@@ -1,11 +1,17 @@
 ---
 title: Kronos Edition
 editLink: false
+
+layout: home
+
+hero:
+  name: Kronos Edition
+  text: Compatibility
 ---
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
    <img src="/images/products/Kronos.svg" style="width: 30%; !important;"/>
-</div>
+</div> -->
 
 <div class="product-tag"><a href="https://github.com/codbex/codbex-kronos" target="_blank" class="product-link">Source Code</a></div>
 
@@ -37,6 +43,7 @@ The Kronos Edition of the <b>codbex</b> platform provides a compatible environme
 
 The Kronos Edition is designed for organizations and development teams leveraging SAP HANA XS for application development. Whether you're developing XS applications for SAP HANA or seeking compatibility with other JDBC compliant RDBMS, Kronos Edition provides the tools and capabilities to support your needs.
 
+<div class="content">
 <section>
     <div class="container flex">
         <div class="text">
@@ -240,6 +247,7 @@ The Kronos Edition is designed for organizations and development teams leveragin
         </div>
     </div>
 </section>
+</div>
 
 ### Development Experience
 

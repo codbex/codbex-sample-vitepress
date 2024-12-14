@@ -1,11 +1,17 @@
 ---
 title: Helios Edition
 editLink: false
+
+layout: home
+
+hero:
+  name: Helios Edition
+  text: Coding
 ---
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
    <img src="/images/products/Helios.svg" style="width: 30%; !important;"/>
-</div>
+</div> -->
 
 <div class="product-tag"><a href="https://github.com/codbex/codbex-helios" target="_blank" class="product-link">Source Code</a></div>
 
@@ -23,6 +29,7 @@ The Helios Edition is designed for enterprises and development teams focused on 
 
 ### Key Features:
 
+<div class="content">
 <section>
     <div class="container flex">
         <div class="text">
@@ -93,6 +100,7 @@ The Helios Edition is designed for enterprises and development teams focused on 
         </div>
     </div>
 </section>
+</div>
 
 * Multiple databases support
 * Database structure browser

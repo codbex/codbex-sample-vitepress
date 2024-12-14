@@ -1,11 +1,17 @@
 ---
 title: Oceanus Edition
 editLink: false
+
+layout: home
+
+hero:
+  name: Oceanus Edition
+  text: Documents
 ---
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
    <img src="/images/products/Oceanus.svg" style="width: 30%; !important;"/>
-</div>
+</div> -->
 
 <div class="product-tag"><a href="https://github.com/codbex/codbex-oceanus" target="_blank" class="product-link">Source Code</a></div>
 
@@ -21,6 +27,7 @@ The Oceanus Edition is ideal for organizations and teams looking to streamline t
 
 ### Key Features:
 
+<div class="content">
 <section>
     <div class="container flex">
         <div class="text">
@@ -56,6 +63,7 @@ The Oceanus Edition is ideal for organizations and teams looking to streamline t
         </div>
     </div>
 </section>
+</div>
 
 * CMIS repositories
 * Built-in file system repository

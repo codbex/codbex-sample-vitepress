@@ -1,11 +1,17 @@
 ---
 title: Atlas Edition
 editLink: false
+
+layout: home
+
+hero:
+  name: Atlas Edition
+  text: All in one
 ---
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
    <img src="/images/products/Atlas.svg" style="width: 30%; !important;"/>
-</div>
+</div> -->
 
 <div class="product-tag"><a href="https://github.com/codbex/codbex-atlas" target="_blank" class="product-link">Source Code</a></div>
 
@@ -23,6 +29,7 @@ The Atlas Edition is ideal for organizations and development teams seeking a com
 
 ### Key Features:
 
+<div class="content">
 <section>
     <div class="container flex">
         <div class="text">
@@ -172,6 +179,7 @@ The Atlas Edition is ideal for organizations and development teams seeking a com
         </div>
     </div>
 </section>
+</div>
 
 * User/role-based security model
 * Modular architecture and allows to extend with own plugins

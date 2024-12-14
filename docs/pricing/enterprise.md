@@ -3,6 +3,9 @@ title: Enterprise Plan
 editLink: false
 ---
 
+# Enterprise Plan
+<br/>
+
 <div class="price-tag">€249 per user (minimum 100 users)</div>
 
 
