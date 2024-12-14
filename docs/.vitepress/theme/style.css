@@ -58,7 +58,6 @@
     monospace;
 }
 
-
 :root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
@@ -154,4 +153,41 @@
 }
 
 
+
+@media (min-width: 768px) {
+  .flex {
+      display:-webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+      flex-direction: row
+  }
+
+  .flex .text,.flex .image {
+      -webkit-flex: 1;
+      flex: 1;
+      padding: 0 20px
+  }
+
+  .content section:nth-child(even) .flex {
+      flex-direction: row-reverse
+  }
+}
+
+.container,.text-container {
+  margin: 0 auto;
+  position: relative;
+  padding: 0 3em
+}
+
+.text-container {
+  max-width: 750px
+}
+
+.container.max-container {
+  max-width: 100%;
+  padding: 0
+}
 
