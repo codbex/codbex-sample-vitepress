@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'codbex',
   description: 'High-Productivity Application Platform for Developers, Software Vendors and Enterprises',
-  base: '/',
+  base: '/codbex-sample-vitepress',
   sitemap: {
     hostname: 'https://www.codbex.com/codbex-sample-vitepress/'
   },
