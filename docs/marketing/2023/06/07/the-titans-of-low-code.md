@@ -37,7 +37,6 @@ So, the results of these titanic efforts deserve to be named after the Greek Tit
 * [Helios](/products/helios) - the light for the developer coming from behind the clouds. You can deploy it directly on the target infrastructure and then start coding your server-side services via the full-fledged Web IDE including a powerful Code Editor, Projects Explorer, Debugger, Import and Export, Live Preview, Console for logs and many more.
 * [Hades](/products/hades) - the dark side of the stack where a lot of bad things can be done, but it can also save lives if used correctly. It provides the database management tools for inspection, but also for altering the data.
 * [Oceanus](/products/oceanus) - the manager of all the binary creatures - documents, images and of course text files. Powerful zip file inflation is supported there, as well as a direct link for any CMIS-based repository.
-* [Theia](/products/theia) - a full-fledged terminal interface running in the browser, but connected to your target environment.
 * [Hyperion](/products/hyperion) - providing all the necessary modules for building, running and operating business processes based on BPMN v2 notation.
 * [Iapetus](/products/iapetus) - integrations management including the industry leading frameworks and connectors.
 * [Rhea](/products/iapetus) - model driven development apporach with various application templates.
