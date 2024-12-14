@@ -1,11 +1,17 @@
 ---
 title: Rhea Edition
 editLink: false
+
+layout: home
+
+hero:
+  name: Rhea Edition
+  text: Modeling
 ---
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
    <img src="/images/products/Rhea.svg" style="width: 30%; !important;"/>
-</div>
+</div> -->
 
 <div class="product-tag"><a href="https://github.com/codbex/codbex-rhea" target="_blank" class="product-link">Source Code</a></div>
 
@@ -29,6 +35,7 @@ The Rhea Edition is designed for organizations and development teams seeking a c
 
 ### Key Features:
 
+<div class="content">
 <section>
     <div class="container flex">
         <div class="text">
@@ -131,6 +138,7 @@ The Rhea Edition is designed for organizations and development teams seeking a c
         </div>
     </div>
 </section>
+</div>
 
 * User/role-based security model
 * Modular architecture and allows to extend with own plugins
