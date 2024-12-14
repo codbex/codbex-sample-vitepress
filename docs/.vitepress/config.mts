@@ -12,6 +12,10 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/codbex-sample-vitepress/favicon.ico' }]
   ],
+  appearance: {
+    // @ts-expect-error not fully supported yet
+    initialValue: 'light'
+  },
   themeConfig: {
     logo: '/logo.svg',
     // https://vitepress.dev/reference/default-theme-config

@@ -110,14 +110,6 @@ const members = [
     ]
   },
   {
-    name: 'Pavel Baltiyski',
-    title: 'Guest (ABAP/BI/BW)',
-    avatar: 'https://www.codbex.com/images/staff/pavel.jpg',
-    links: [
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/pavelbaltiyski/' }
-    ]
-  },
-  {
     name: 'Stan Genchev',
     title: 'UX',
     avatar: 'https://www.codbex.com/images/staff/stan.jpg',
