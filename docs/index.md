@@ -19,17 +19,14 @@ features:
     details: Design, generate, and publish applications in minutes with our visual model-driven development tools
     link: /documentation
     linkText: Learn more
-    icon: ⚡
   - title: Tailored Process Automation
     details: Publish and test workflows, seamlessly integrating with your domain models for dynamic automation
     link: /documentation
     linkText: Learn more
-    icon: 📊
   - title: Seamless UI Creation
     details: Build forms, integrate seamlessly with your microservice, and publish for immediate use
     link: /documentation
     linkText: Learn more
-    icon: 🖥️
 ---
 
 <div class="content">
@@ -81,18 +78,6 @@ features:
 			</div>
 			<div class="image">
 				<img src="/images/ide-form.png" alt="Screenshot" class="screenshot editable" />
-			</div>
-		</div>
-	</section>
-	<section class="testimonial">
-		<div class="container flex">
-			<div class="testimonial-block">
-				<div class="square-image"><img src="/images/staff/nedelcho.jpg" alt="Nedelcho Delchev"></div>
-				<blockquote>
-					<p>We see "Low Code" as high productivity tools that we give developers,
-						so they can focus on business value and shorten time to market.</p>
-					<p class="author">Nedelcho Delchev - CEO of codbex</p>
-				</blockquote>
 			</div>
 		</div>
 	</section>
