@@ -348,4 +348,4 @@ Support depends on the plan you selected from [pricing](/pricing/).
 * [Run easily ABAP code for free in 5 minutes](/technology/2024/06/25/run-abap-for-free)
 * [Deploy codbex products on Snowflake](/technology/2024/09/11/deploy-codbex-products-on-snowflake)
 * [Implement Snowflake UDF for leave request days calculation](/technology/2024/09/18/snowflake-udf-leave-days)
-* [Migrate BW Query (BEx) with ABAP to Snowflake with Tableau](/technology/2024/10/27/migrate-bex-abap-snowflake-tableau/)
+* [Migrate BW Query (BEx) with ABAP to Snowflake with Tableau](/technology/2024/10/27/migrate-bex-abap-snowflake-tableau)
