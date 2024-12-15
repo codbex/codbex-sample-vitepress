@@ -21,7 +21,7 @@ import { getMember } from '/.vitepress/theme/utils/membersUtils';
   <ul class="post-list">
     <li class="post-item" v-for="post of sortedPosts">
       <p class="post-meta">
-        <img :src="withBase(getMember(members, post.frontmatter.author).avatar)" alt="{{ getMember(members, post.frontmatter.author).name }}" class="author-image" />
+        <img :src="getMember(members, post.frontmatter.author).avatar" alt="{{ getMember(members, post.frontmatter.author).name }}" class="author-image" />
         <span class="post-author">{{ getMember(members, post.frontmatter.author).name }}</span>&nbsp;&nbsp;  
         <span class="post-date">{{ new Date(post.frontmatter.date).toDateString() }}</span>
       </p>
