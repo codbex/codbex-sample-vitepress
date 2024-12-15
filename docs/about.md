@@ -25,7 +25,7 @@ import {
 import members from './data/staff.data.json';
 import { getInternalMembers } from '/.vitepress/theme/utils/membersUtils';
 import { withBase } from 'vitepress';
-const internalMembers = getInternalMembers(members);
+const internalMembers = [...getInternalMembers(members)];
 internalMembers.forEach( function(member){
   member.avatar = withBase(member.avatar);
 });
