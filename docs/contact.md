@@ -14,5 +14,5 @@ features:
 
 editLink: false
 
-title: Who we are?
+title: Contact
 ---
