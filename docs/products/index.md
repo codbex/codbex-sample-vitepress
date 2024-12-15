@@ -2,8 +2,9 @@
 layout: home
 
 hero:
-  text: Products
-  tagline: "Find the edition that best suits your needs"
+  name: Products
+  text: "Find the edition that best suits your needs"
+  tagline: All editions are fully customizable and extendable
 
 features:
   - title: Atlas

@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  text: Technology
-  tagline: User Guides
+  name: Technology
+  text: User Guides
 
 editLink: false
 ---

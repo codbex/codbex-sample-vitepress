@@ -2,8 +2,9 @@
 layout: home
 
 hero:
-  text: Pricing
-  tagline: "Find the perfect plan for your business"
+  name: Pricing
+  text: "Find the perfect plan for your business"
+  tagline: All plans include our award winning sales optimization solution.
 
 features:
   - title: Community

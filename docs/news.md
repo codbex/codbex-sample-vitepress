@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  text: "News"
-  tagline: Company Updates
+  name: News
+  text: Company Updates
 
 editLink: false
 ---

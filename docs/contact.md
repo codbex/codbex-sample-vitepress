@@ -2,8 +2,9 @@
 layout: home
 
 hero:
-  text: Contact
-  tagline: Get in touch today! We'd love to help you improve your developers productivity
+  name: Contact
+  text: Get in touch today
+  tagline: We'd love to help you improve your developers productivity
 features:
   - title: Bulgaria
     details: 10 Vihren, floor 3, office 3.3, <br>Sofia, 1618,<br>✉️ office@codbex.com, <br>📞 +359 (0)888892300
