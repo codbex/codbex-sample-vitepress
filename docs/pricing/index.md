@@ -8,7 +8,7 @@ hero:
 
 features:
   - title: Community
-    details: "€0 per user per month<br><br>
+    details: "<b>€0 per user per month</b><br><br>
     for any kind of commercial or non-commercial use without SLAs<br><br>
     Database Management, Schema Modeling, Data Import, Back-end Services, Enterprise JavaScript API, User Interfaces, Themes, Entity Data, Business Processes, Jobs, OData, Message Listeners, Extensions, Operations and Monitoring<br><br>
     Unmanaged Instance Deployed Standalone<br><br>
@@ -16,7 +16,7 @@ features:
     link: /pricing/community
     linkText: Learn more
   - title: Professional
-    details: "€49 per user per month<br><br>
+    details: "<b>€49 per user per month</b><br><br>
     for small and mid-size businesses with basic SLAs and minimum 10 users<br><br>
     Everything included in Community version, Source code repository setup on GitHub, CI/CD pipelines for automatic udates on GitHub<br><br>
     Managed Instance on Google Cloud Platform<br><br>
@@ -24,7 +24,7 @@ features:
     link: /pricing/professional
     linkText: Learn more
   - title: Enterprise
-    details: "€249 per user per month<br><br>
+    details: "<b>€249 per user per month</b><br><br>
     for large enterprises with premium SLAs and minimum 100 users<br><br>
     Everything included in Professional version, Source code repository setup on any Git provider, Private source code repositories, CI/CD pipelines for automatic udates on private servers<br><br>
     Managed Instance on GCP, AWS, Azure as Dedicated Kubernetes Cluster<br><br>
