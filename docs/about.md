@@ -2,8 +2,7 @@
 layout: home
 
 hero:
-  name: About
-  text: Innovations
+  text: About
   tagline: Who we are, what do we provide and what it is for you?
 features:
   - title: Who we are?

@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: "Marketing"
-  text: Opportunities
+  text: "Marketing"
+  tagline: Opportunities
 
 editLink: false
 ---
