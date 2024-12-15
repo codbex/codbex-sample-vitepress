@@ -191,4 +191,8 @@ The Atlas Edition is ideal for organizations and development teams seeking a com
 
 With the Atlas Edition of the <b>codbex</b> platform, you can accelerate your cloud application development and streamline operations like never before. From database modeling to operations and monitoring, this edition provides a seamless end-to-end solution for building and managing cloud applications. Empower your teams, enhance productivity, and drive innovation with the Atlas Edition from <b>codbex</b>.
 
-Support depends on the plan you selected from <a href="https://www.codbex.com/pricing/">Pricing</a>.
+Support depends on the plan you selected from [pricing](/pricing/).
+
+### References
+
+* [Deploy codbex products on Snowflake](/technology/2024/09/11/deploy-codbex-products-on-snowflake)

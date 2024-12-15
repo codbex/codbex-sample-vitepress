@@ -150,5 +150,8 @@ The Rhea Edition is designed for organizations and development teams seeking a c
 
 With the Rhea Edition of the <b>codbex</b> platform, you can transform your modelling techniques and JavaScript development with confidence. From designing domain models and custom forms to building frontend and backend applications with JavaScript, Rhea Edition offers a comprehensive solution for driving innovation and accelerating digital transformation in your organization.
 
-Support depends on the plan you selected from <a href="https://www.codbex.com/pricing/">Pricing</a>.
+Support depends on the plan you selected from [pricing](/pricing/).
 
+### References
+
+* [Deploy codbex products on Snowflake](/technology/2024/09/11/deploy-codbex-products-on-snowflake)

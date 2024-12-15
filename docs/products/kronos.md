@@ -340,9 +340,12 @@ The Kronos Edition is designed for organizations and development teams leveragin
 
 With the Kronos Edition of the <b>codbex</b> platform, you can empower your SAP HANA XS applications with confidence. Whether deploying on SAP HANA or other JDBC compliant RDBMS, Kronos Edition offers a compatible environment for XS application development and deployment. Benefit from continuity and support with Kronos Edition, the official fork of Project "XSK."
 
-Support depends on the plan you selected from <a href="https://www.codbex.com/pricing/">Pricing</a>.
+Support depends on the plan you selected from [pricing](/pricing/).
 
 ### References
 
 * [Timeless Solution for Modern Challenges](/marketing/2024/06/05/kronos-timeless-solution)
 * [Run easily ABAP code for free in 5 minutes](/technology/2024/06/25/run-abap-for-free)
+* [Deploy codbex products on Snowflake](/technology/2024/09/11/deploy-codbex-products-on-snowflake)
+* [Implement Snowflake UDF for leave request days calculation](/technology/2024/09/18/snowflake-udf-leave-days)
+* [Migrate BW Query (BEx) with ABAP to Snowflake with Tableau](/technology/2024/10/27/migrate-bex-abap-snowflake-tableau/)

@@ -142,9 +142,10 @@ The Iapetus Edition is designed for organizations and development teams seeking 
 
 With the Iapetus Edition of the <b>codbex</b> platform, you can elevate your service integrations and JavaScript development with confidence. From managing ETL processes and enterprise integration patterns to building frontend and backend applications with JavaScript, Iapetus Edition offers a comprehensive solution for driving innovation and accelerating digital transformation in your organization.
 
-Support depends on the plan you selected from <a href="https://www.codbex.com/pricing/">Pricing</a>.
+Support depends on the plan you selected from [pricing](/pricing/).
 
 ### References
 
 * [Unleash Service Integrations with Iapetus](/marketing/2024/03/26/iapetus-unleash-service-integration)
 * [Implement ETL for Sales Orders](/technology/2024/08/15/orders-etl)
+* [Deploy codbex products on Snowflake](/technology/2024/09/11/deploy-codbex-products-on-snowflake)

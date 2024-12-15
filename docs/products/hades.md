@@ -132,9 +132,10 @@ The Hades Edition is tailored for database administrators and data professionals
 
 With the Hades Edition of the <b>codbex</b> platform, you can take control of your database management processes with confidence. From database modeling and management to data transfer and import/export capabilities, Hades Edition offers a comprehensive suite of features to meet the demands of modern data environments. Empower your database administrators, streamline operations, and unlock the full potential of your data infrastructure with Hades Edition from <b>codbex</b>.
 
-Support depends on the plan you selected from <a href="https://www.codbex.com/pricing/">Pricing</a>.
+Support depends on the plan you selected from [pricing](/pricing/).
 
 ### References
 
 * [Explore and Manage Databases in the Cloud](/marketing/2023/10/11/hades-explore-and-manage-databases-in-the-cloud)
+* [Deploy codbex products on Snowflake](/technology/2024/09/11/deploy-codbex-products-on-snowflake)
 

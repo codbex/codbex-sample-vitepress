@@ -131,10 +131,11 @@ The Hyperion Edition is designed for organizations and development teams seeking
 
 With the Hyperion Edition of the <b>codbex</b> platform, you can power your business processes management and JavaScript development with confidence. From BPMN compliance and Flowable engine integration to robust JavaScript development features, Hyperion Edition offers a comprehensive solution for accelerating digital transformation and driving innovation in your organization.
 
-Support depends on the plan you selected from <a href="https://www.codbex.com/pricing/">Pricing</a>.
+Support depends on the plan you selected from [pricing](/pricing/).
 
 ### References
 
 * [Unlocking Enterprise Efficiency with Hyperion](/marketing/2024/03/20/hyperion-unlocking-enterprise-efficiency)
 * [Implement a BPM application for leave requests](/technology/2024/07/17/leave-request-bpm-app)
+* [Deploy codbex products on Snowflake](/technology/2024/09/11/deploy-codbex-products-on-snowflake)
 

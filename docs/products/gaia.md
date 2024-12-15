@@ -30,5 +30,5 @@ ENV DIRIGIBLE_HOME_URL=/services/web/codbex-aion/gen/index.html
 
 <br>
 
-Support depends on the plan you selected from <a href="https://www.codbex.com/pricing/">Pricing</a>.
+Support depends on the plan you selected from [pricing](/pricing/).
 

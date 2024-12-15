@@ -86,8 +86,9 @@ The Oceanus Edition is ideal for organizations and teams looking to streamline t
 
 With the Oceanus Edition of the <b>codbex</b> platform, you can simplify your document management processes and enhance collaboration across your organization. From structuring content to previewing documents and integrating with FTP/SFTP protocols, Oceanus Edition offers a comprehensive suite of features to streamline your document workflows. Empower your teams, enhance productivity, and unlock the full potential of your document management with Oceanus Edition from <b>codbex</b>.
 
-Support depends on the plan you selected from <a href="https://www.codbex.com/pricing/">Pricing</a>.
+Support depends on the plan you selected from [pricing](/pricing/).
 
 ### References
 
 * [Dive into Innovation with Oceanus](/marketing/2024/01/23/oceanus-dive-into-innovation)
+* [Deploy codbex products on Snowflake](/technology/2024/09/11/deploy-codbex-products-on-snowflake)
