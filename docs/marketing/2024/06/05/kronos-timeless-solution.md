@@ -1,8 +1,12 @@
 ---
 title: Kronos - Timeless Solution for Modern Challenges
-editLink: false
+description: In the rapidly evolving landscape of technology, it's easy to get swept away by the allure of the latest advancements. However, amidst the rush for the new and shiny, we often overlook the enduring value of established solutions that have stood the test of time. One such gem is Kronos by codbex, a product that bridges the gap between the past and the present, demonstrating that old can indeed be gold
+date: 2024-06-05
 author: nedelcho
+editLink: false
 ---
+
+# Kronos - Timeless Solution for Modern Challenges
 
 In the rapidly evolving landscape of technology, it's easy to get swept away by the allure of the latest advancements. However, amidst the rush for the new and shiny, we often overlook the enduring value of established solutions that have stood the test of time. One such gem is Kronos by __codbex__, a product that bridges the gap between the past and the present, demonstrating that old can indeed be gold.
 

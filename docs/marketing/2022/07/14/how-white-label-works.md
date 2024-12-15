@@ -1,8 +1,12 @@
 ---
 title: How the 'White-Label' Business Model Works?
-editLink: false
+description: There are many business models, which are applicable to business software, for companies that create products or offer professional services
+date: 2022-07-14
 author: nedelcho
+editLink: false
 ---
+
+# How the 'White-Label' Business Model Works?
 
 There are many business models, which are applicable to business software, for companies that create products or offer professional services.
 

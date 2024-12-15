@@ -1,9 +1,12 @@
 ---
 title: Company Dedicated to Developers Productivity
-editLink: false
+description: Today, on April, 01, 2022 the company codbex has just been born.
+date: 2022-04-01
 author: nedelcho
+editLink: false
 ---
 
+# Company Dedicated to Developers Productivity
 
 Today, on April, 01, 2022 the company __codbex__ has just been born.
 

@@ -1,8 +1,12 @@
 ---
 title:  Migrate BW Query (BEx) with ABAP to Snowflake with Tableau
-editLink: false
+description: It is common to create BEx Variables which are processed within a Customer Exit with the help of ABAP coding
+date: 2024-10-27
 author: pavel
+editLink: false
 ---
+
+#  Migrate BW Query (BEx) with ABAP to Snowflake with Tableau
 
 It is common to create BEx Variables which are processed within a Customer Exit with the help of ABAP coding.
 

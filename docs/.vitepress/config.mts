@@ -30,7 +30,6 @@ export default defineConfig({
           { text: 'News', link: '/news' },
           { text: 'Marketing', link: '/marketing' },
           { text: 'Technology', link: '/technology' },
-          { text: 'Sales', link: '/sales' },
         ]
       },
       { text: 'About', link: '/about' },
@@ -103,6 +102,7 @@ export default defineConfig({
             { text: 'Ultimate Cloud IDE for JavaScript and TypeScript', link: '/marketing/2023/09/26/helios-ultimate-cloud-ide-for-javascript-and-typescript' },
             { text: 'The Titans of Low Code', link: '/marketing/2023/06/07/the-titans-of-low-code' },
             { text: 'What is Low Code Platform', link: '/marketing/2022/04/01/what-is-low-code' },
+            { text: `How the 'White-Label' Business Model Works?`, link: '/marketing/2022/07/14/how-white-label-works' },
           ]
         }
       ],
@@ -122,14 +122,7 @@ export default defineConfig({
           ]
         }
       ],
-      '/sales': [
-        {
-          text: 'Sales',
-          items: [
-            { text: `How the 'White-Label' Business Model Works?`, link: '/sales/2022/07/14/how-white-label-works' },
-          ]
-        }
-      ],
+
       '/documentation': [
         {
           text: 'Documentation',

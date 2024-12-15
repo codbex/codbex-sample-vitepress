@@ -1,8 +1,12 @@
 ---
 title: Explore and Manage Databases in the Cloud
-editLink: false
+description: The Hades Edition is a powerful suite of tools designed to enhance database management and data manipulation. In this article, we will delve into the various features and functionalities, including Data Sources concept, configuring database connections, Database Explorer, SQL View, Results View, Data Transfer, Import and Export of Data, and Anonymization
+date: 2023-10-11
 author: nedelcho
+editLink: false
 ---
+
+# Explore and Manage Databases in the Cloud
 
 The <a href="/products/hades/">Hades Edition</a> is a powerful suite of tools designed to enhance database management and data manipulation. In this article, we will delve into the various features and functionalities, including Data Sources concept, configuring database connections, Database Explorer, SQL View, Results View, Data Transfer, Import and Export of Data, and Anonymization.
 

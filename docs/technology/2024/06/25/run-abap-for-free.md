@@ -1,8 +1,12 @@
 ---
 title: Kronos - Run easily ABAP code for free in 5 minutes
-editLink: false
+description: We decided to invest in a new functionality which will help our customers to run ABAP code easily and for free
+date: 2024-06-25
 author: iliyan
+editLink: false
 ---
+
+# Kronos - Run easily ABAP code for free in 5 minutes
 
 We decided to invest in a new functionality which will help our customers to run ABAP code easily and for free.<br>
 

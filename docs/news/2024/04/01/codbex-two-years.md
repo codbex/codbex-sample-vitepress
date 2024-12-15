@@ -1,8 +1,12 @@
 ---
 title: Celebrating Two Years of Excellence
-editLink: false
+description: Today marks a significant milestone for us at codbex company - we're celebrating our second anniversary! It's been an incredible journey filled with challenges, growth, and most importantly, achievements. As we reflect on the past two years, we are proud of what we have accomplished and excited for what the future holds.
+date: 2024-04-01
 author: nedelcho
+editLink: false
 ---
+
+# Celebrating Two Years of Excellence
 
 Today marks a significant milestone for us at __codbex__ company - we're celebrating our second anniversary! It's been an incredible journey filled with challenges, growth, and most importantly, achievements. As we reflect on the past two years, we are proud of what we have accomplished and excited for what the future holds.
 

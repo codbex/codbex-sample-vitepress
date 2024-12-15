@@ -1,8 +1,13 @@
 ---
 title: What is Low Code Platform
-editLink: false
+description: Low code has become a very popular term recently among development communities. To what extent it overlaps with High-Productivity Platform as a Service (hpaPaaS) and Rapid Application Development (RAD) or is it new and uncharted territory, we would like to give our view on this matter
+date: 2022-04-01
 author: nedelcho
+editLink: false
 ---
+
+# What is Low Code Platform
+
 Low code has become a very popular term recently among development communities. To what extent it overlaps with High-Productivity Platform as a Service (hpaPaaS) and Rapid Application Development (RAD) or is it new and uncharted territory, we would like to give our view on this matter. 
 
 What Low Code Platform is and Who should care about it?

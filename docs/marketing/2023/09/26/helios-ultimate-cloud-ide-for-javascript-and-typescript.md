@@ -1,8 +1,12 @@
 ---
 title: Ultimate Cloud IDE for JavaScript and TypeScript
-editLink: false
+description: In the ever-evolving world of software development, having the right tools at your disposal can make all the difference. Whether you're a seasoned developer or just getting started, having an integrated development environment (IDE) that simplifies your coding experience is crucial. That's where Helios comes into play
+date: 2023-09-26
 author: vladimir
+editLink: false
 ---
+
+# Ultimate Cloud IDE for JavaScript and TypeScript
 
 In the ever-evolving world of software development, having the right tools at your disposal can make all the difference. Whether you're a seasoned developer or just getting started, having an integrated development environment (IDE) that simplifies your coding experience is crucial. That's where Helios comes into play.
 

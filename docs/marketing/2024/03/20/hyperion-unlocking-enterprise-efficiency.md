@@ -1,8 +1,12 @@
 ---
 title: Unlocking Enterprise Efficiency with Hyperion
-editLink: false
+description: In the intricate world of enterprise operations, orchestrating business processes seamlessly is key to driving efficiency and success. Enter Hyperion by codbex – the ultimate BPMN solution designed to streamline and optimize business processes in enterprise companies like never before
+date: 2024-03-20
 author: dimitar
+editLink: false
 ---
+
+# Unlocking Enterprise Efficiency with Hyperion
 
 In the intricate world of enterprise operations, orchestrating business processes seamlessly is key to driving efficiency and success. Enter Hyperion by `codbex` – the ultimate BPMN solution designed to streamline and optimize business processes in enterprise companies like never before.
 

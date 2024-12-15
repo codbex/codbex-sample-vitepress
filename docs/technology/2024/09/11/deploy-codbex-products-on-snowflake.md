@@ -1,8 +1,12 @@
 ---
 title: Deploy codbex products on Snowflake
-editLink: false
+description: Enhance your Snowflake environment with codbex's low-code solutions, effortlessly deployed as Docker images for maximum efficiency.
+date: 2024-09-11
 author: iliyan
+editLink: false
 ---
+
+# Deploy codbex products on Snowflake
 
 Enhance your [Snowflake](https://www.snowflake.com/) environment with [codbex's low-code solutions](https://www.codbex.com/products/), effortlessly deployed as Docker images for maximum efficiency.
 

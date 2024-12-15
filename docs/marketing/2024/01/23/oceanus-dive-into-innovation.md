@@ -1,8 +1,12 @@
 ---
 title: Dive into Innovation with Oceanus
-editLink: false
+description: Welcome to the future of business operations with Oceanus, a groundbreaking product by codbex. In today's fast-paced and dynamic business landscape, staying ahead of the curve is crucial. Oceanus offers a comprehensive solution designed to streamline your workflow, enhance collaboration, and elevate your overall business efficiency
+date: 2024-01-23
 author: nedelchojr
+editLink: false
 ---
+
+# Dive into Innovation with Oceanus
 
 Welcome to the future of business operations with <a href="/products/oceanus/">Oceanus</a>, a groundbreaking product by codbex. In today's fast-paced and dynamic business landscape, staying ahead of the curve is crucial. Oceanus offers a comprehensive solution designed to streamline your workflow, enhance collaboration, and elevate your overall business efficiency.
 

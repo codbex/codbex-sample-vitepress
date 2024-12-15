@@ -1,8 +1,12 @@
 ---
 title: Unleash Service Integrations with Iapetus
-editLink: false
+description: In the intricate landscape of service integrations, where agility and interoperability reign supreme, Iapetus emerges as the ultimate solution for enterprises seeking to streamline their integration scenarios effortlessly. Powered by the de-facto standard engine Apache Camel, Iapetus offers unparalleled capabilities to orchestrate and manage service integrations with precision and ease
+date: 2024-03-26
 author: ivo
+editLink: false
 ---
+
+# Unleash Service Integrations with Iapetus
 
 In the intricate landscape of service integrations, where agility and interoperability reign supreme, Iapetus emerges as the ultimate solution for enterprises seeking to streamline their integration scenarios effortlessly. Powered by the de-facto standard engine Apache Camel, Iapetus offers unparalleled capabilities to orchestrate and manage service integrations with precision and ease.
 

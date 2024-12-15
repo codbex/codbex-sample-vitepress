@@ -1,8 +1,12 @@
 ---
 title: The Technology Stack behind Our Products
-editLink: false
+description: The technology stack by codbex, is powerful, highly modularized and provides many deployment options tailored for specific scenarios. The ultimate goal s to increase developer's productivity, hence decrease time to market of the quality software.
+date: 2022-06-15
 author: nedelcho
+editLink: false
 ---
+
+# The Technology Stack behind Our Products
 
 The technology stack by codbex, is powerful, highly modularized and provides many deployment options tailored for specific scenarios. The ultimate goal is to increase developer's productivity, hence decrease time to market of the quality software.
 

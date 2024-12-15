@@ -1,8 +1,12 @@
 ---
 title: Hyperion - Implement a BPM application for leave requests
-editLink: false
+description: Using Hyperion you can easily implement BPM (Business process management) applications in a few minutes
+date: 2024-07-17
 author: iliyan
+editLink: false
 ---
+
+# Hyperion - Implement a BPM application for leave requests
 
 Using __codbex__ [Hyperion](https://www.codbex.com/products/hyperion/) you can easily implement BPM (Business process management) applications in a few minutes.
 
