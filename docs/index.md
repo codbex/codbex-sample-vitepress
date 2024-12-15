@@ -1,10 +1,9 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "codbex"
-  text: "High-Productivity Application Platform"
+  name: codbex
+  text: High-Productivity Application Platform
   tagline: for Developers, Software Vendors and Enterprises to design, develop and deliver their industry solutions
   actions:
     - theme: brand

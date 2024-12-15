@@ -33,6 +33,7 @@ export default defineConfig({
         ]
       },
       { text: 'About', link: '/about' },
+      { text: 'Contact', link: '/contact' },
     ],
 
     sidebar: {

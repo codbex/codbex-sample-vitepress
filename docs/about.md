@@ -1,14 +1,26 @@
 ---
-layout: page
+layout: home
+
+hero:
+  name: About
+  text: Innovations
+  tagline: Who we are, what do we provide and what it is for you?
+features:
+  - title: Who we are?
+    details: codbex is an innovative and dynamic technology company that specializes in providing software solutions to businesses in a variety of industries. We at codbex put our customers’ satisfaction first - our aspiration is to be a trusted partner for companies that want to use the full potential of their assets and drive sustainable success in an increasingly competitive digital environment.
+  - title: What do we provide?
+    details: codbex offers an unique high-productivity application platform foundation for our partner’s network to design and develop vertical industry solutions based on the variety of open source technologies and open standards, and deliver them to customers on any hyperscaler as well as on-premises. Our leading offerings include advanced database management systems, reliable business process integration tools, and customized software solutions designed to improve business productivity.
+  - title: What is it for you?
+    details: Developers need a platform providing powerful tooling, scallable infrastructure and a huge number of reusable components. Enterprises looking for a modern, extendable and secure cloud applications for their specific business needs. Vendors want to build solutions tailored for specific customer’s needs by combining ready to use components. Resellers want to expand their products and services portfolio by promoting and reselling vertical industry solutions.
+
+editLink: false
+
 title: Who we are?
 ---
 
 <script setup>
 import {
-  VPTeamPage,
-  VPTeamPageTitle,
   VPTeamMembers,
-  VPTeamPageSection,
 } from 'vitepress/theme';
 
 const members = [
@@ -148,43 +160,15 @@ const members = [
 ]
 </script>
 
-<VPTeamPage>
-  <VPTeamPageTitle>
-    <template #title>Who we are?</template>
-    <template #lead>
-      <b>codbex</b> is an innovative and dynamic technology company that specializes in providing software solutions to businesses in a variety of industries. We at codbex offer a unique platform for designing and developing industry solutions based on open source technologies, tailored to meet the evolving needs of modern business. Our leading offerings include advanced database management systems, reliable business process integration tools, and customized software solutions designed to improve business productivity. We at codbex put our customers’ satisfaction first - our aspiration is to be a trusted partner for companies that want to use the full potential of their assets and drive sustainable success in an increasingly competitive digital environment.
-    </template>
-  </VPTeamPageTitle>
-  <VPTeamPageTitle>
-    <template #title>What do we provide?</template>
-    <template #lead>
-      <b>codbex</b> offers an unique high-productivity application platform foundation for our partner’s network to design and develop vertical industry solutions based on the variety of open source technologies and open standards, and deliver them to customers on any hyperscaler as well as on-premises.
-    </template>
-  </VPTeamPageTitle>
-  <VPTeamPageTitle>
-    <template #title>What it is for you?</template>
-    <template #lead>
-      <b>Developers</b> need a platform providing powerful tooling, scallable infrastructure and a huge number of reusable components.
-      <br>
-      <br>
-      <b>Enterprises</b> looking for a modern, extendable and secure cloud applications for their specific business needs.
-      <br>
-      <br>
-      <b>Vendors</b> want to build solutions tailored for specific customer’s needs by combining ready to use components.
-      <br>
-      <br>
-      <b>Resellers</b> want to expand their products and services portfolio by promoting and reselling vertical industry solutions.
-    </template>
-  </VPTeamPageTitle>
-  <VPTeamPageTitle>
-    <template #title>Our Team</template>
-    <template #lead>
-      Our team consists of skilled professionals and experts, with an eye for innovation, who use the latest technologies and methodologies to deliver solutions that exceed expectations.
-    </template>
-  </VPTeamPageTitle>
+<br/><br/>
+
+# Our Team
+    
+Our team consists of skilled professionals and experts, with an eye for innovation, who use the latest technologies and methodologies to deliver solutions that exceed expectations.
+
 
   <VPTeamMembers :members="members"/>
-</VPTeamPage>
+
 
 <style scope>
   @media (min-width: 640px) {
