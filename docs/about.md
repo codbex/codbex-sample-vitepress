@@ -22,142 +22,9 @@ title: Who we are?
 import {
   VPTeamMembers,
 } from 'vitepress/theme';
-
-const members = [
-  {
-    name: 'Atanas Himchev',
-    title: 'CSO',
-    avatar: 'https://www.codbex.com/images/staff/atanas.jpg',
-    links: [
-      { icon: 'github', link: 'https://github.com/himchev/' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/atanas-himchev-a4a9114/' }
-    ]
-  },
-  {
-    name: 'Boris Nenchovski',
-    title: 'Platform',
-    avatar: 'https://www.codbex.com/images/staff/boris.jpg',
-    links: [
-      { icon: 'github', link: 'https://github.com/BorisNen/' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/boris-n-b27b19195/' }
-    ]
-  },
-  {
-    name: 'Desislava Rasheva',
-    title: 'Legal Advisor',
-    avatar: 'https://www.codbex.com/images/staff/desislava.jpg',
-    links: [
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/dessislava-rasheva-pavlova-ab1a9a107/' }
-    ]
-  },
-  {
-    name: 'Dimitar Velev',
-    title: 'Blockchain',
-    avatar: 'https://www.codbex.com/images/staff/dimitar.jpg',
-    links: [
-      { icon: 'github', link: 'https://github.com/d-velev/' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/d-velev/' }
-    ]
-  },
-  {
-    name: 'Emil Momchev',
-    title: 'Student',
-    avatar: 'https://www.codbex.com/images/staff/emil.jpg',
-    links: [
-      { icon: 'github', link: 'https://github.com/Mrgoblings/' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/emil-momchev/' }
-    ]
-  },
-  {
-    name: 'Iliyan Velichkov',
-    title: 'Java',
-    avatar: 'https://www.codbex.com/images/staff/iliyan.png',
-    links: [
-      { icon: 'github', link: 'https://github.com/iliyan-velichkov/' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/iliyan-velichkov/' }
-    ]
-  },
-  {
-    name: 'Ivo Yakov',
-    title: 'IoT',
-    avatar: 'https://www.codbex.com/images/staff/ivo.jpg',
-    links: [
-      { icon: 'github', link: 'https://github.com/Fluctuationqt' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/ivo-yakov-9681b9226/' }
-    ]
-  },
-  {
-    name: 'Mimi Delcheva',
-    title: 'Marketing',
-    avatar: 'https://www.codbex.com/images/staff/mimi.jpg',
-    links: [
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/mimi-delcheva-998b12231/' }
-    ]
-  },
-  {
-    name: 'Mina Doncheva',
-    title: 'Developer',
-    avatar: 'https://www.codbex.com/images/staff/mina.jpg',
-    links: [
-      { icon: 'github', link: 'https://github.com/MinaDoncheva' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/mina-doncheva-136594183/' }
-    ]
-  },
-  {
-    name: 'Nedelcho Delchev',
-    title: 'CEO',
-    avatar: 'https://www.codbex.com/images/staff/nedelcho.jpg',
-    links: [
-      { icon: 'github', link: 'https://github.com/delchev' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/nedelcho-delchev-67089421/' }
-    ]
-  },
-  {
-    name: 'Nedelcho Delchev Jr.',
-    title: 'Applications',
-    avatar: 'https://www.codbex.com/images/staff/nedelchojr.jpg',
-    links: [
-      { icon: 'github', link: 'https://github.com/nedelcho-delchev-tues' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/nedelcho-delchev/' }
-    ]
-  },
-  {
-    name: 'Stan Genchev',
-    title: 'UX',
-    avatar: 'https://www.codbex.com/images/staff/stan.jpg',
-    links: [
-      { icon: 'github', link: 'https://github.com/StanZGenchev' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/stan-genchev/' }
-    ]
-  },
-  {
-    name: 'Tomislav Ivanov',
-    title: 'Student',
-    avatar: 'https://www.codbex.com/images/staff/tomi.jpg',
-    links: [
-      { icon: 'github', link: 'https://github.com/TIVMOF' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/tomy-ivanov-1b0224289/' }
-    ]
-  },
-  {
-    name: 'Vladimir Mutafov',
-    title: 'Research',
-    avatar: 'https://www.codbex.com/images/staff/vladimir.jpg',
-    links: [
-      { icon: 'github', link: 'https://github.com/vmutafov' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/vladimir-mutafov-a84055114/' }
-    ]
-  },
-  {
-    name: 'Yordan Pavlov',
-    title: 'CTO',
-    avatar: 'https://www.codbex.com/images/staff/yordan.jpg',
-    links: [
-      { icon: 'github', link: 'https://github.com/ThuF' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/jordan-pavlov/' }
-    ]
-  }
-]
+import members from './data/staff.data.json';
+import { getInternalMembers } from '/.vitepress/theme/utils/membersUtils';
+const internalMembers = getInternalMembers(members);
 </script>
 
 <br/><br/>
@@ -167,7 +34,7 @@ const members = [
 Our team consists of skilled professionals and experts, with an eye for innovation, who use the latest technologies and methodologies to deliver solutions that exceed expectations.
 
 
-  <VPTeamMembers :members="members"/>
+  <VPTeamMembers :members="internalMembers"/>
 
 
 <style scope>

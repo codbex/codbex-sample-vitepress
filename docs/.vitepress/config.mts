@@ -130,9 +130,6 @@ export default defineConfig({
           items: [
             { text: 'Documentation Portal', link: '/documentation/' },
             { text: 'Getting Started', link: '/documentation/getting-started' },
-            // { text: 'Solutions', link: '/solutions' },
-            { text: 'Announcements', link: '/marketing' },
-            { text: 'Tutorials', link: '/technology' },
             {
               text: 'Configurations',
               link: '/documentation/configurations',

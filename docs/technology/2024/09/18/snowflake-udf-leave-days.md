@@ -2,8 +2,8 @@
 title: Implement Snowflake UDF for leave request days calculation
 description: Discover how to implement a UDF (User-defined function) in Snowflake with Kronos by codbex, calculating leave request days and factoring in holidays from OpenHolidays API
 date: 2024-09-18
-editLink: false
 author: iliyan
+editLink: false
 ---
 
 # Implement Snowflake UDF for leave request days calculation
