@@ -344,4 +344,62 @@
   margin-left: auto;
 }
 
+.testimonial {
+	margin: 0;
+	padding: 100px 0;
+
+	.testimonial-block {
+		max-width: 750px;
+		width: 98%;
+		margin: 0 auto;
+	}
+
+}
+
+blockquote {
+	padding: 18px 25px;
+	margin: 0;
+	quotes: "\201C""\201D""\2018""\2019";
+	font-style: italic;
+
+	.author {
+		display: block;
+		font-weight: bold;
+		margin: 10px 0 0 0;
+		font-size: .85em;
+		font-style: normal;
+	}
+
+	p {
+		display: inline;
+	}
+}
+
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+.square-image {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	margin: 25px auto 0 auto;
+	position: relative;
+	border-radius: 200px;
+
+	img {
+		position: absolute;
+		left: -1000%;
+		right: -1000%;
+		top: -1000%;
+		bottom: -1000%;
+		margin: auto;
+		width: 200px;
+	}
+}
 
