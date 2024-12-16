@@ -329,8 +329,9 @@ Creates an OutputStream pointing to the file at the specified path.
   
 - **Returns:** A streams.OutputStream object representing the OutputStream.
 
-!!! note
-        Note that the parameter `path` takes either an absolute path or relative path from your working instance
+::: info
+Note that the parameter `path` takes either an absolute path or relative path from your working instance
+:::
 
 ### Example Usage
 

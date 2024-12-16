@@ -179,11 +179,11 @@ To apply filter use the `$filter` property with the followin options:
 - `greaterThanOrEqual` - performs comparison operation _(`>=`)_.
 - `lessThanOrEqual` - performs comparison operation _(`<=`)_.
 
-!!! note
-
+::: info 
 The "key" (e.g. `Team`, `Country`, etc.) should match a property in the DAO definition.
+:::
 
-??? info "DAO Definition"
+::: details DAO Definition
 
 ```javascript
 
@@ -252,6 +252,7 @@ const dao = daoApi.create({
     ]
 });
 ```
+:::
 
 ```javascript
 const data = dao.list({
@@ -300,12 +301,11 @@ WHERE ("EMPLOYEE_TEAM" IN (?, ?, ?))
 
 The `$select` property can be used to select only a set of properties/columns from the DAO query.
 
-!!! note
+::: info
+The selected "key" (e.g. `Name`, `Country`, etc.) should match a property in the DAO definition.
+:::
 
-    The selected "key" (e.g. `Name`, `Country`, etc.) should match a property in the DAO definition.
-
-??? info "DAO Definition"
-
+::: details DAO Definition
 ```javascript
 import { dao as daoApi } from "sdk/db";
 
@@ -372,6 +372,7 @@ const dao = daoApi.create({
     ]
 });
 ```
+:::
 
 ```javascript
 const data = dao.list({
@@ -389,12 +390,11 @@ SELECT "EMPLOYEE_NAME", "EMPLOYEE_COUNTRY", "EMPLOYEE_COMPANY" FROM "SAMPLE_EMPL
 
 The `$limit` and `$offset` properties can be used together to achieve pagination of large data sets.
 
-!!! note
+::: info
+Values for both `$limit` and `$offset` should be provided.
+:::
 
-    Values for both `$limit` and `$offset` should be provided.
-
-??? info "DAO Definition"
-
+::: details DAO Definition
 ```javascript
 import { dao as daoApi } from "sdk/db";
 
@@ -461,6 +461,7 @@ const dao = daoApi.create({
     ]
 });
 ```
+:::
 
 ```javascript
 const data = dao.list({
@@ -479,13 +480,12 @@ SELECT * FROM "SAMPLE_EMPLOYEE" LIMIT 50 OFFSET 0
 
 The `$sort` and `$order` properties can be used together to sort the returned data.
 
-!!! note
+::: info
+- `$sort` - comma separated list of "keys" matching properties in the DAO definition _(e.g. `Country,City`)_.
+- `$order` - either `asc` or `desc` _(the default order is `asc`)_.
+:::
 
-    - `$sort` - comma separated list of "keys" matching properties in the DAO definition _(e.g. `Country,City`)_.
-    - `$order` - either `asc` or `desc` _(the default order is `asc`)_.
-
-??? info "DAO Definition"
-
+::: details DAO Definition
 ```javascript
 import { dao as daoApi } from "sdk/db";
 
@@ -552,6 +552,7 @@ const dao = daoApi.create({
     ]
 });
 ```
+:::
 
 ```javascript
 const data = dao.list({

@@ -24,10 +24,9 @@ You can run the all in one platform as a Docker container as described [here](ht
 
 In case of a local setup on your machine, you can access the web IDE at the following location: [http://localhost/](http://localhost)
 
-!!! info "Default Credentials"
-
-    The default username is `admin` and the default password is `admin`. The credentials can be updated, as described in the [configuration options](configurations/basic-auth.md).
-
+::: info Default Credentials
+The default username is `admin` and the default password is `admin`. The credentials can be updated, as described in the [configuration options](configurations/basic-auth.md).
+:::
 
 ### Creating Your First Service
 
@@ -60,9 +59,9 @@ Once you have a running __codbex__ instance, you can start with your project:
 
     ![Service Impletentation](images/getting-started/service-implementation-mjs.png)
 
-!!! info
-
-    The file already contains a `Hello World` service implementation. As it's not specified otherwise, the service can be executed by performing any of the following HTTP methods: `GET`, `POST`, `PUT`, `DELETE` and `PATCH`.
+::: info
+The file already contains a `Hello World` service implementation. As it's not specified otherwise, the service can be executed by performing any of the following HTTP methods: `GET`, `POST`, `PUT`, `DELETE` and `PATCH`.
+:::
 
 - Click on the **Publish All** button from the toolbar:
 
@@ -72,9 +71,9 @@ Once you have a running __codbex__ instance, you can start with your project:
 
     ![Preview Project](images/getting-started/preview-project-mjs.png)
 
-!!! note
-
-    The **JavaScript Service** is published and available at the `http://localhost/services/js/hello-world/hello-service.mjs`URL. It can be accessed in a separate browser tab, consumed by a third-party application or API tools like `Postman` or `cURL`.
+::: tip Note
+The **JavaScript Service** is published and available at the `http://localhost/services/js/hello-world/hello-service.mjs`URL. It can be accessed in a separate browser tab, consumed by a third-party application or API tools like `Postman` or `cURL`.
+:::
 
 ## Explore the Tooling
 

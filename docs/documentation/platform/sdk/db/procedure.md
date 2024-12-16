@@ -54,13 +54,13 @@ Executes a stored procedure and returns the result sets.
 
 ## Example Usage:
 
-!!! note
+::: info
+To use procedures you need to add database that supports them (default DB is H2 that does not support procedures):
 
-    To use procedures you need to add database that supports them (default DB is H2 that does not support procedures):
-
-    1. Open `Database` perspective and click on `Databases` at the bottom.
-    2. Click `New` and add your database information.
-    3. Use you newly added database in most methods as `databaseType`.
+1. Open `Database` perspective and click on `Databases` at the bottom.
+2. Click `New` and add your database information.
+3. Use you newly added database in most methods as `databaseType`.
+:::
 
 ### Create Procedure:
 
