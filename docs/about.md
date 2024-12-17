@@ -22,10 +22,9 @@ title: Who we are?
 import {
   VPTeamMembers,
 } from 'vitepress/theme';
-import members from './data/staff.data.json';
 import { getInternalMembers } from '/.vitepress/theme/utils/membersUtils';
 import { withBase } from 'vitepress';
-const internalMembers = getInternalMembers(members);
+const internalMembers = getInternalMembers();
 </script>
 
 <br/><br/>

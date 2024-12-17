@@ -1,14 +1,14 @@
-export function getMember(members, id) {
-    const member = members.find(x => x.id === id);
-    return member;
+import members from '../../../data/staff.data.json';
+
+export function getMember(id) {
+    return members.find(e => e.id === id);
 }
 
-export function getMemberAvatar(members, id) {
-    const member = members.find(x => x.id === id);
+export function getMemberAvatar(id) {
+    const member = members.find(e => e.id === id);
     return member?.avatar ?? "https://via.placeholder.com/150";
 }
 
-export function getInternalMembers(members) {
-    const internalMembers = members.filter(x => x.internal === true);
-    return internalMembers;
+export function getInternalMembers() {
+    return members.filter(x => x.internal === true);
 }

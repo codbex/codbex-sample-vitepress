@@ -12,6 +12,8 @@ editLink: false
 import { withBase } from 'vitepress'
 import { data as posts } from '/data/news.data'
 import getSorted from '/.vitepress/theme/utils/getSorted';
+import { getMember } from '/.vitepress/theme/utils/membersUtils';
+
 const sortedPosts = getSorted( posts );
 </script>
 
