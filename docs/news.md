@@ -20,8 +20,7 @@ const sortedPosts = getSorted( posts );
   <ul class="post-list">
     <li class="post-item" v-for="post of sortedPosts">
       <p class="post-meta">
-        <img src="/logo.svg" alt="codbex" class="author-image" />
-        <span class="post-author">codbex</span>&nbsp;&nbsp;
+        <img src="/logo.svg" alt="codbex" class="author-image-square" />
         <span class="post-date">{{ new Date(post.frontmatter.date).toDateString() }}</span>
       </p>
       <h4 class="post-title"><a :href="withBase(post.url)">{{ post.frontmatter.title }}</a></h4>

@@ -336,6 +336,14 @@
   display: inline;
 }
 
+.author-image-square {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 1rem;
+  display: inline;
+}
+
 .post-author {
   font-size: 1.2rem;
 }

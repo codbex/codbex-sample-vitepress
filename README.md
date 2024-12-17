@@ -16,7 +16,6 @@ Sample Static Site Generation (SSG) based on [VitePress](https://vitepress.dev/)
 ## Development
 
 ```
-cd docs/
 npm install
 npm run docs:dev
 ```
@@ -26,7 +25,7 @@ Access the site at: [http://localhost:8080/](http://localhost:8080/)
 ## Build and Test Locally
 
 ```
-cd docs/
+npm install
 npm run docs:build
 npm run docs:preview
 ```
