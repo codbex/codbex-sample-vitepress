@@ -1,10 +1,12 @@
 # Role
 
-> File extension: `*.role`
-
 ## Overview
 
 The Role Artefact (`*.role`) is a configuration file used to define roles within a system or application. It contains metadata about roles, including their names, descriptions, and any associated permissions or privileges.
+
+::: tip
+File extension: `*.role`
+:::
 
 ## Purpose
 

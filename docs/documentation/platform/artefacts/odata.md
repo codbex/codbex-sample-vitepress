@@ -1,10 +1,12 @@
 # OData
 
-> File extension: `*.odata`
-
 ## Overview
 
 The OData Artefact (`*.odata`) is a configuration file used to define OData (Open Data Protocol) entities and their properties within a specific namespace. It contains metadata about entities, their properties, annotations, and associations, following the OData standards.
+
+::: tip
+File extension: `*.odata`
+:::
 
 ## Purpose
 

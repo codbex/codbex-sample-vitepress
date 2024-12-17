@@ -1,4 +1,6 @@
 # Form Design
 
-> File extension: `*.form`
+::: tip
+File extension: `*.form`
+:::
 

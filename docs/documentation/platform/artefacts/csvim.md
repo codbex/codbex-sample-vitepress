@@ -1,10 +1,13 @@
 # CSVIM (Comma Separated Values Import Model)
 
-> File extension: `*.csvim`
 
 ## Overview:
 
 The CSVIM (Comma Separated Values Import Model) file is used in the __codbex__ platform to define the parameters and configuration for importing data from CSV files into a specified table in the database. This model allows you to customize the import process based on your specific requirements.
+
+::: tip
+File extension: `*.csvim`
+:::
 
 ## CSVIM File Structure
 

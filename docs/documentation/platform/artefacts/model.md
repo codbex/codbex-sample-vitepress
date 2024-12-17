@@ -1,10 +1,12 @@
 # Application Model
 
-> File extension: `*.model`
-
 ## Overview
 
-The Application Model file (*.model) is a JSON representation used by the Entity Data Modeler tool to define the domain model of applications. It contains metadata about entities, their properties, relationships, and other relevant information necessary for generating application artifacts.
+The Application Model file (`*.model`) is a JSON representation used by the Entity Data Modeler tool to define the domain model of applications. It contains metadata about entities, their properties, relationships, and other relevant information necessary for generating application artifacts.
+
+::: tip
+File extension: `*.model`
+:::
 
 ## Purpose
 

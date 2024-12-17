@@ -1,3 +1,7 @@
+---
+title: CMIS
+---
+
 # CMIS
 
 The CMIS API provides a set of functions and objects compliant with the CMIS (Content Management Interoperability Services) specification, allowing users to interact with content repositories. This documentation covers the usage, functions, objects, and constants available in the CMS API.
@@ -6,83 +10,82 @@ The CMIS API provides a set of functions and objects compliant with the CMIS (Co
 
 The Basic Usage section demonstrates how to use the CMS API to perform common tasks:
 
-=== "ECMA6"
 
-    ```javascript
-    import { cmis } from "sdk/cms";
-    import { response } from "sdk/http";
-    import { streams } from "sdk/io";
+```javascript
+import { cmis } from "sdk/cms";
+import { response } from "sdk/http";
+import { streams } from "sdk/io";
 
-    let cmisSession = cmis.getSession();
+let cmisSession = cmis.getSession();
 
-    let rootFolder = cmisSession.getRootFolder();
+let rootFolder = cmisSession.getRootFolder();
 
-    let children = rootFolder.getChildren();
-    response.println("Listing the children of the root folder:");
-    for (let i in children) {
-        response.println("Object ID: " + children[i].getId());
-        response.println("Object Name: " + children[i].getName());
-    }
+let children = rootFolder.getChildren();
+response.println("Listing the children of the root folder:");
+for (let i in children) {
+    response.println("Object ID: " + children[i].getId());
+    response.println("Object Name: " + children[i].getName());
+}
 
-    const textFileName = "test.txt";
-    response.println("Creating a simple text file, " + textFileName);
+const textFileName = "test.txt";
+response.println("Creating a simple text file, " + textFileName);
 
-    const mimetype = "text/plain; charset=UTF-8";
-    let content = "This is some test content.";
-    let filename = textFileName;
+const mimetype = "text/plain; charset=UTF-8";
+let content = "This is some test content.";
+let filename = textFileName;
 
-    let outputStream = streams.createByteArrayOutputStream();
-    outputStream.writeText(content);
-    let bytes = outputStream.getBytes();
-    let inputStream = streams.createByteArrayInputStream(bytes);
+let outputStream = streams.createByteArrayOutputStream();
+outputStream.writeText(content);
+let bytes = outputStream.getBytes();
+let inputStream = streams.createByteArrayInputStream(bytes);
 
-    let contentStream = cmisSession.getObjectFactory().createContentStream(filename, bytes.length, mimetype, inputStream);
+let contentStream = cmisSession.getObjectFactory().createContentStream(filename, bytes.length, mimetype, inputStream);
 
-    let properties = { "cmis:name": "", "cmis:objectTypeId": "" };
-    properties[cmis.OBJECT_TYPE_ID] = cmis.OBJECT_TYPE_DOCUMENT;
-    properties[cmis.NAME] = filename;
-    let newDocument;
-    try {
-        newDocument = rootFolder.createDocument(properties, contentStream, cmis.VERSIONING_STATE_MAJOR);
-    } catch (e) {
-        response.println("Error: " + e);
-    }
-    let documentId = newDocument?.getId();
+let properties = { "cmis:name": "", "cmis:objectTypeId": "" };
+properties[cmis.OBJECT_TYPE_ID] = cmis.OBJECT_TYPE_DOCUMENT;
+properties[cmis.NAME] = filename;
+let newDocument;
+try {
+    newDocument = rootFolder.createDocument(properties, contentStream, cmis.VERSIONING_STATE_MAJOR);
+} catch (e) {
+    response.println("Error: " + e);
+}
+let documentId = newDocument?.getId();
 
-    response.println("Document ID: " + documentId);
+response.println("Document ID: " + documentId);
 
-    children = rootFolder.getChildren();
-    response.println("Listing the children of the root folder again:");
-    for (let i in children) {
-        response.println("Object ID: " + children[i].getId());
-        response.println("Object Name: " + children[i].getName());
-        response.println("Object Type: " + JSON.stringify(children[i].getType().getId().toString()));
-    }
+children = rootFolder.getChildren();
+response.println("Listing the children of the root folder again:");
+for (let i in children) {
+    response.println("Object ID: " + children[i].getId());
+    response.println("Object Name: " + children[i].getName());
+    response.println("Object Type: " + JSON.stringify(children[i].getType().getId().toString()));
+}
 
-    // Get the contents of the file
-    let doc;
-    if (documentId !== undefined) {
-        doc = cmisSession.getObject(documentId);
-    } else {
-        response.println("No content");
-    }
+// Get the contents of the file
+let doc;
+if (documentId !== undefined) {
+    doc = cmisSession.getObject(documentId);
+} else {
+    response.println("No content");
+}
 
-    contentStream = doc?.getContentStream(); // returns null if the document has no content
-    if (contentStream !== null) {
-        content = contentStream.getStream().readText();
-        response.println("Contents of " + filename + " are: " + content);
-    } else {
-        response.println("No content.");
-    }
+contentStream = doc?.getContentStream(); // returns null if the document has no content
+if (contentStream !== null) {
+    content = contentStream.getStream().readText();
+    response.println("Contents of " + filename + " are: " + content);
+} else {
+    response.println("No content.");
+}
 
-    response.println("Deleting the newly created document");
-    if (newDocument) {
-        newDocument.delete();
-    }
+response.println("Deleting the newly created document");
+if (newDocument) {
+    newDocument.delete();
+}
 
-    response.flush();
-    response.close();
-    ```
+response.flush();
+response.close();
+```
 
 ## Functions
 

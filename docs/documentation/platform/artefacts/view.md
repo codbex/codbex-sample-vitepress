@@ -1,7 +1,5 @@
 # View
 
-> File extension: `*.view`
-
 ## Overview:
 
 The *.view files in the __codbex__ platform are used to define and manage database views. Views are virtual tables that represent the result of a stored query. 
@@ -18,6 +16,10 @@ Here's an explanation of the example `PERSONS_VIEW.view` file and its properties
     ]
 }
 ```
+
+::: tip
+File extension: `*.view`
+:::
 
 **Properties:**
 

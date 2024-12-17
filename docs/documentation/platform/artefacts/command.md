@@ -1,12 +1,14 @@
 # Command
 
-> File extension: `*.command`
-
 ## Overview:
 
 The __codbex__ provides provides support for command files (*.command) as a way to define and execute commands in the runtime environment. Command files are written in JSON, and they allow users to define and run server-side scripts or execute specific tasks within the platform.
 
 Here's an overview of the support for Command files (*.command):
+
+::: tip
+File extension: `*.command`
+:::
 
 ### Command Files:
 
@@ -73,12 +75,11 @@ When this command file is executed in the environment, it will perform the follo
     * On Linux and macOS, it will execute the shell script "print.sh."
     * On Windows, it will execute the batch file "print.bat."
 
-> Note:
-
+::: info
 Ensure that the specified shell script ("print.sh") and batch file ("print.bat") exist and are appropriately configured in the respective operating system environments.
 
 This command file structure is a versatile way to define and execute commands, making it useful for various scenarios, including environment setup, configuration changes, or system interactions. Adjustments can be made based on specific requirements and the desired behavior in different operating systems.
-
+:::
 
 #### Scripting Capabilities:
 

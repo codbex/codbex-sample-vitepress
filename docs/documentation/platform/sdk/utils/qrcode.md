@@ -1,5 +1,4 @@
 # QRCode
-===
 
 QRCode object is used to generate a JavaScript byte array based on an input string.
 

@@ -1,10 +1,12 @@
 # Confluence
 
-> File extension: `*.confluence`
-
 ## Overview:
 
 The __codbex__ platform provides support for Confluence wiki files (*.confluence), allowing users to seamlessly integrate and manage Confluence content within the platform. This support enables collaborative development and documentation workflows by combining the strengths of both __codbex__ and Confluence.
+
+::: tip
+File extension: `*.confluence`
+:::
 
 ## Key Features:
 

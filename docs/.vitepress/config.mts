@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { generateSidebar } from 'vitepress-sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -59,13 +60,14 @@ export default defineConfig({
             { text: 'Community', link: '/pricing/community' },
             { text: 'Professional', link: '/pricing/professional' },
             { text: 'Enterprise', link: '/pricing/enterprise' },
-            { 
+            {
               text: 'Services',
               link: '/pricing/services',
               items: [
                 { text: 'Development', link: '/pricing/services/development' },
                 { text: 'Consulting', link: '/pricing/services/consulting' },
-            ]},
+              ]
+            },
           ]
         }
       ],
@@ -217,7 +219,196 @@ export default defineConfig({
                 }
               ]
             },
-            { text: 'SDK', link: '/documentation/platform/sdk' },
+            {
+              text: 'SDK',
+              link: '/documentation/platform/sdk/',
+              collapsed: true,
+              items: [
+                {
+                  text: "BPM",
+                  link: "/documentation/platform/sdk/bpm/",
+                  collapsed: true,
+                  items: [
+                    { text: "Process", link: "/documentation/platform/sdk/bpm/process" }
+                  ],
+                },
+                {
+                  text: "CMS",
+                  link: "/documentation/platform/sdk/cms/",
+                  collapsed: true,
+                  items: [
+                    { text: "CMIS", link: "/documentation/platform/sdk/cms/cmis" }
+                  ],
+                },
+                {
+                  text: "Core",
+                  link: "/documentation/platform/sdk/core/",
+                  collapsed: true,
+                  items: [
+                    { text: "Configurations", link: "/documentation/platform/sdk/core/configurations" },
+                    { text: "Context", link: "/documentation/platform/sdk/core/context" },
+                    { text: "Env", link: "/documentation/platform/sdk/core/env" },
+                    { text: "Globals", link: "/documentation/platform/sdk/core/globals" }
+                  ],
+                },
+                {
+                  text: "Database",
+                  link: "/documentation/platform/sdk/db/",
+                  collapsed: true,
+                  items: [
+                    { text: "Data Access Object (DAO)", link: "/documentation/platform/sdk/db/dao" },
+                    { text: "Database", link: "/documentation/platform/sdk/db/database" },
+                    { text: "Insert", link: "/documentation/platform/sdk/db/insert" },
+                    { text: "Procedure", link: "/documentation/platform/sdk/db/procedure" },
+                    { text: "Query", link: "/documentation/platform/sdk/db/query" },
+                    { text: "Sequence", link: "/documentation/platform/sdk/db/sequence" },
+                    { text: "Store", link: "/documentation/platform/sdk/db/store" },
+                    { text: "Update", link: "/documentation/platform/sdk/db/update" }
+                  ],
+                },
+                {
+                  text: "Git",
+                  link: "/documentation/platform/sdk/git/",
+                  collapsed: true,
+                  items: [
+                    { text: "Git Client", link: "/documentation/platform/sdk/git/client" }
+                  ],
+                },
+                {
+                  text: "Http",
+                  link: "/documentation/platform/sdk/http/",
+                  collapsed: true,
+                  items: [
+                    { text: "Client Async", link: "/documentation/platform/sdk/http/client-async" },
+                    { text: "Client", link: "/documentation/platform/sdk/http/client" },
+                    { text: "HTTP Request", link: "/documentation/platform/sdk/http/request" },
+                    { text: "HTTP Response", link: "/documentation/platform/sdk/http/response" },
+                    { text: "HTTP RESTful Services Framework", link: "/documentation/platform/sdk/http/rs" },
+                    { text: "HTTP Session", link: "/documentation/platform/sdk/http/session" },
+                    { text: "HTTP Upload", link: "/documentation/platform/sdk/http/upload" }
+                  ],
+                },
+                {
+                  text: "Indexing",
+                  link: "/documentation/platform/sdk/indexing/",
+                  collapsed: true,
+                  items: [
+                    { text: "Indexing Searcher", link: "/documentation/platform/sdk/indexing/searcher" },
+                    { text: "Indexing Writer", link: "/documentation/platform/sdk/indexing/writer" }
+                  ],
+                },
+                {
+                  text: "I/O",
+                  link: "/documentation/platform/sdk/io/",
+                  collapsed: true,
+                  items: [
+                    { text: "Bytes", link: "/documentation/platform/sdk/io/bytes" },
+                    { text: "Files", link: "/documentation/platform/sdk/io/files" },
+                    { text: "FTP Client", link: "/documentation/platform/sdk/io/ftp" },
+                    { text: "Streams", link: "/documentation/platform/sdk/io/streams" },
+                    { text: "ZIP", link: "/documentation/platform/sdk/io/zip" }
+                  ],
+                },
+                {
+                  text: "Job",
+                  link: "/documentation/platform/sdk/job/",
+                  collapsed: true,
+                  items: [
+                    { text: "Job Scheduler", link: "/documentation/platform/sdk/job/scheduler" }
+                  ],
+                },
+                {
+                  text: "Log",
+                  link: "/documentation/platform/sdk/log/",
+                  collapsed: true,
+                  items: [
+                    { text: "Logging", link: "/documentation/platform/sdk/log/logging" }
+                  ],
+                },
+                {
+                  text: "Mail",
+                  link: "/documentation/platform/sdk/mail/",
+                  collapsed: true,
+                  items: [
+                    { text: "Mail API", link: "/documentation/platform/sdk/mail/client" }
+                  ],
+                },
+                {
+                  text: "Messaging",
+                  link: "/documentation/platform/sdk/messaging/",
+                  collapsed: true,
+                  items: [
+                    { text: "Message Consumer", link: "/documentation/platform/sdk/messaging/consumer" },
+                    { text: "Message Producer", link: "/documentation/platform/sdk/messaging/producer" }
+                  ],
+                },
+                {
+                  text: "Net",
+                  link: "/documentation/platform/sdk/net/",
+                  collapsed: true,
+                  items: [
+                    { text: "SOAP", link: "/documentation/platform/sdk/net/soap" },
+                    { text: "WebSocket", link: "/documentation/platform/sdk/net/websocket" }
+                  ],
+                },
+                {
+                  text: "Platform",
+                  link: "/documentation/platform/sdk/platform/",
+                  collapsed: true,
+                  items: [
+                    { text: "Command", link: "/documentation/platform/sdk/platform/command" },
+                    { text: "Lifecycle", link: "/documentation/platform/sdk/platform/lifecycle" },
+                    { text: "Registry", link: "/documentation/platform/sdk/platform/registry" },
+                    { text: "Repository", link: "/documentation/platform/sdk/platform/repository" },
+                    { text: "Workspace", link: "/documentation/platform/sdk/platform/workspace" }
+                  ],
+                },
+                {
+                  text: "Security",
+                  link: "/documentation/platform/sdk/security/",
+                  collapsed: true,
+                  items: [
+                    { text: "User", link: "/documentation/platform/sdk/security/user" }
+                  ],
+                },
+                {
+                  text: "Template",
+                  link: "/documentation/platform/sdk/template/",
+                  collapsed: true,
+                  items: [
+                    { text: "Template Engines", link: "/documentation/platform/sdk/template/engines" }
+                  ],
+                },
+                {
+                  text: "Test",
+                  link: "/documentation/platform/sdk/test/",
+                  collapsed: true,
+                  items: [
+                    { text: "Assert", link: "/documentation/platform/sdk/test/assert" },
+                    { text: "QUnit API", link: "/documentation/platform/sdk/test/qunit" },
+                    { text: "Test Runner", link: "/documentation/platform/sdk/test/runner" }
+                  ],
+                },
+                {
+                  text: "Utils",
+                  link: "/documentation/platform/sdk/utils/",
+                  collapsed: true,
+                  items: [
+                    { text: "Alphanumeric", link: "/documentation/platform/sdk/utils/alphanumeric" },
+                    { text: "Base64", link: "/documentation/platform/sdk/utils/base64" },
+                    { text: "Digest", link: "/documentation/platform/sdk/utils/digest" },
+                    { text: "Escape", link: "/documentation/platform/sdk/utils/escape" },
+                    { text: "Hex", link: "/documentation/platform/sdk/utils/hex" },
+                    { text: "JSONPath", link: "/documentation/platform/sdk/utils/jsonpath" },
+                    { text: "QRCode", link: "/documentation/platform/sdk/utils/qrcode" },
+                    { text: "Url", link: "/documentation/platform/sdk/utils/url" },
+                    { text: "UTF8", link: "/documentation/platform/sdk/utils/utf8" },
+                    { text: "UUID", link: "/documentation/platform/sdk/utils/uuid" },
+                    { text: "XML", link: "/documentation/platform/sdk/utils/xml" }
+                  ],
+                }
+              ]
+            },
             { text: 'Widgets', link: '/documentation/platform/widgets' },
             { text: 'Services', link: '/documentation/platform/services' }
             // { text: 'Templates', link: '/documentation/platform/templates' }

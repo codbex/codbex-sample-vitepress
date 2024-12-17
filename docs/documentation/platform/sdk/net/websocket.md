@@ -36,7 +36,7 @@ websockets.getClientByHandler(handler).close();
 
 #### Server
 
-> For example: `my-endpoint.websocket` is using the same **handler** from above
+For example: `my-endpoint.websocket` is using the same **handler** from above
 
 ```json
 {

@@ -1,7 +1,5 @@
 # DataSource
 
-> File extension: `*.datasource`
-
 ## Overview:
 
 The `*.datasource` files in the __codbex__ platform are used to define and configure data sources. These files specify the details required to connect to a database.
@@ -18,6 +16,10 @@ Here's an explanation of the example `MyDB.datasource` file and its properties:
   "password": ""
 }
 ```
+
+::: tip
+File extension: `*.datasource`
+:::
 
 **Properties:**
 

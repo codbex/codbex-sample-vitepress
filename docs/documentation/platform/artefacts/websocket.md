@@ -1,7 +1,5 @@
 # WebSocket
 
-> File extension: `*.websocket`
-
 ## Overview:
 
 The `*.websocket` files in the __codbex__ platform are used to define and configure WebSocket endpoints. WebSocket is a communication protocol that provides full-duplex communication channels over a single, long-lived connection.
@@ -18,6 +16,10 @@ Here's an explanation of the example `myws.websocket` file and its properties:
   "createdAt": "2022-07-06T2:24:12+0000"
 }
 ```
+
+::: tip
+File extension: `*.websocket`
+:::
 
 **Properties:**
 

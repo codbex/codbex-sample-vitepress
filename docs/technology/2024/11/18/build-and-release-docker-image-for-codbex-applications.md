@@ -10,7 +10,9 @@ editLink: false
 
 At **codbex**, we rely on Docker to create lightweight, portable application images. This post will guide you through the step-by-step process of building a Docker image for a **codbex** application using **GitHub Actions** and automating its release.
 
-> _**Related:** Learn more about Dockerizing Eclipse Dirigible applications in [this blog post](https://www.dirigible.io/blogs/2024/11/18/build-and-release/)._
+::: tip Related Content
+Learn more about Dockerizing Eclipse Dirigible applications in [this blog post](https://www.dirigible.io/blogs/2024/11/18/build-and-release/).
+:::
 
 ## Why Docker for codbex Applications?
 

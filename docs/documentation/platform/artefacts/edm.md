@@ -1,10 +1,12 @@
 # Entity Data Model
 
-> File extension: `*.edm`
-
 ## Overview
 
 The Entity Data Model (EDM) artefact in the __codbex__ platform is an XML file used by the Entity Data Modeler to define the domain model of applications. It provides a structured representation of entities, relationships, and properties, allowing developers to design and manage data models for their applications.
+
+::: tip
+File extension: `*.edm`
+:::
 
 ## Purpose
 

@@ -6,8 +6,6 @@ The Extensions API allows developers to enhance and extend the functionality of 
 
 The Basic Usage section demonstrates how to use the Extensions API to retrieve and utilize extensions:
 
-=== "ECMA6"
-
 ```javascript
 import { extensions } from "sdk/extensions";
 import { response } from "sdk/http";

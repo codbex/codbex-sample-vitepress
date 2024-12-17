@@ -1,3 +1,5 @@
 # Python
 
-> File extension: `*.py`
+::: tip
+File extension: `*.py`
+:::

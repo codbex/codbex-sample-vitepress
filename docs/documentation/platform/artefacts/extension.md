@@ -1,7 +1,5 @@
 # Extension
 
-> File extension: `*.extension`
-
 ## Overview
 
 The `*.extension` files in the __codbex__ platform are used to define extensions that contribute additional functionality or modifications to a specific extension point within the platform.
@@ -18,6 +16,10 @@ Here's an explanation of the example `myextension.extension` file and its proper
   "createdAt": "2022-07-06T3:24:12+0000"
 }
 ```
+
+::: tip
+File extension: `*.extension`
+:::
 
 **Properties:**
 

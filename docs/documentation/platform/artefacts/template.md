@@ -1,10 +1,12 @@
 # Template Configuration
 
-> File: `template.js`
-
 ## Overview
 
 The Template Configuration Artefact is a JavaScript file used to define templates for generating code or files in a structured and configurable manner. It contains functions that return template configurations, including metadata about the templates, their sources, parameters, and ordering.
+
+::: tip
+File: `template.js`
+:::
 
 ## Purpose
 

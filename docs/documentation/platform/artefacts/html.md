@@ -1,10 +1,12 @@
 # HTML
 
-> File extension: `*.html`
-
 ## Overview
 
 HTML (`*.html`) artefacts represent static web pages or templates within the project. These files contain markup, styles, and possibly scripting code that define the structure and presentation of web content.
+
+::: tip
+File extension: `*.html`
+:::
 
 ## Purpose
 

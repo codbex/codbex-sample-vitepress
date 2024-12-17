@@ -8,8 +8,6 @@ The BPM API allows you to interact with business process models, start processes
 
 To start a process, you can use the `start` function provided by the BPM API.
 
-#### ECMA6
-
 ```javascript
 import { process } from "sdk/bpm"
 

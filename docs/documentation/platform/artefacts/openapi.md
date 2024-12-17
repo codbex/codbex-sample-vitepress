@@ -1,12 +1,14 @@
 # OpenAPI
 
-> File extension: `*.openapi`
-
 ## Overview
 
-In the __codbex__ platform, the `*.openapi` artifact is used to define an OpenAPI-compliant specification for a given RESTful service. This specification contributes to the global Swagger descriptor for the server instance, providing a standardized way to document and describe the RESTful APIs exposed by the __codbex__ application.
+In the __codbex__ platform, the OpenAPI artifact (`*.openapi`) is used to define an OpenAPI-compliant specification for a given RESTful service. This specification contributes to the global Swagger descriptor for the server instance, providing a standardized way to document and describe the RESTful APIs exposed by the __codbex__ application.
 
 Here's an overview of its usage:
+
+::: tip
+File extension: `*.openapi`
+:::
 
 ### OpenAPI Specification:
 

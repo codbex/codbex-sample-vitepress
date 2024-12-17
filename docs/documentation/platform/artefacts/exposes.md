@@ -1,10 +1,12 @@
 # Exposes Section in Project (project.json) File
 
-> File: `project.json`/`exposes`
-
 ## Overview
 
 The "exposes" section in the Project (`project.json`) file specifies the modules or resources that are exposed to consumers or other parts of the application. It allows developers to define what components or functionalities of the project should be made accessible externally.
+
+::: tip
+File: `project.json`/`exposes`
+:::
 
 ## Purpose
 

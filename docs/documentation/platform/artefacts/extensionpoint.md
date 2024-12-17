@@ -1,7 +1,5 @@
 # ExtensionPoint
 
-> File extension: `*.extensionpoint`
-
 ## Overview:
 
 The `*.extensionpoint` files in __codbex__ platform are used to define extension points within the platform. Extension points allow you to extend and customize the behavior of the system by contributing additional functionality or modifications.
@@ -17,6 +15,10 @@ Here's an explanation of the example `myextensionpoint.extensionpoint` file and 
   "createdAt": "2022-07-06T2:53:01+0000"
 }
 ```
+
+::: tip
+File extension: `*.extensionpoint`
+:::
 
 **Properties:**
 

@@ -1,10 +1,12 @@
 # Entity
 
-> File extension: `*.hbm.xml`
-
 ## Overnvew
 
 Hibernate Mapping Files (`*.hbm.xml`) are XML-based configuration files used by the Hibernate ORM framework to define the mapping between domain objects (entities) and database tables. These files provide a declarative way to specify how entities are persisted, loaded, and managed by Hibernate.
+
+::: tip
+File extension: `*.hbm.xml`
+:::
 
 ## Purpose
 

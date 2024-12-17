@@ -66,11 +66,15 @@ Function     | Description | Returns
 
 ### ByteArrayInputStream
 
-> inherited from InputStream
+::: info
+Inherited from InputStream
+:::
 
 ### ByteArrayOutputStream
 
-> inherited from OutputStream and:
+::: info
+Inherited from OutputStream and
+:::
 
 Function     | Description | Returns
 ------------ | ----------- | --------

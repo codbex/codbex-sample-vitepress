@@ -119,7 +119,9 @@ The Kronos IDE is used for the ABAP code implementation and interface between Kr
 
 <img src="/images/2024-10-27-migrate-bex-abap-snowflake-tableau/kronos-ide.png" alt="kronos-ide.png">
 
-> The ABAP code was implemented as-is, requiring only minor or no adjustments.
+::: tip
+The ABAP code was implemented as-is, requiring only minor or no adjustments.
+:::
 
 <img src="/images/2024-10-27-migrate-bex-abap-snowflake-tableau/kronos-abap.png" alt="kronos-abap.png">
 

@@ -1,7 +1,5 @@
 # Listener
 
-> File extension: `*.listener`
-
 ## Overview:
 
 The `*.listener` files in the __codbex__ platform are used to define listeners, which are event-driven components that respond to specific events or messages within the platform.
@@ -19,6 +17,10 @@ Here's an explanation of the example `mylistener.listener` file and its properti
   "createdAt": "2022-07-06T2:53:01+0000"
 }
 ```
+
+::: tip
+File extension: `*.listener`
+:::
 
 **Properties:**
 

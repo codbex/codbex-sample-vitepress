@@ -1,7 +1,5 @@
 # Job
 
-> File extension: `*.job`
-
 ## Overview:
 
 The `*.job` files in the __codbex__ platform are used to define and schedule jobs, allowing you to automate and execute recurring tasks within the platform.
@@ -44,6 +42,10 @@ Here's an explanation of the example `myjob.job` file and its properties:
   ]
 }
 ```
+
+::: tip
+File extension: `*.job`
+:::
 
 **Properties:**
 

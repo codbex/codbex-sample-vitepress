@@ -66,4 +66,21 @@ Function     | Description | Returns
 ------------ | ----------- | --------
 **execute(sql, parameters?, datasourceName?)**   | Executes a SQL query against the selected *datasourceName* with the provided parameters | *result-set as JSON object*
 
-> parameters array supports primitives e.g. [1, 'John', 34.56] or objects in format {'type':'[DATA_TYPE]', 'value':[VALUE]} e.g. [1, {'type':'CHAR', 'value':'ISBN19202323322'}]
+::: info
+Parameters array supports primitives:
+
+```javascript
+[1, 'John', 34.56]
+```
+
+and objects in format:
+```javascript
+{'type':'[DATA_TYPE]', 'value':[VALUE]}
+```
+
+Example using both primitives and objects:
+
+```javascript
+[1, 'John', { type: 'CHAR', value: 'ISBN19202323322' }]
+```
+:::

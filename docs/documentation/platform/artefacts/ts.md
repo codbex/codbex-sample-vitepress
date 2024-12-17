@@ -1,10 +1,12 @@
 # TypeScript
 
-> File extension: `*.ts`
-
 ## Overview
 
 TypeScript (`*.ts`) files and the `tsconfig.json` configuration file are essential components in TypeScript-based development projects. TypeScript is a superset of JavaScript that adds static typing and other advanced features to the language, enabling developers to build more scalable and maintainable applications.
+
+::: tip
+File extension: `*.ts`
+:::
 
 ## TypeScript Files (*.ts)
 

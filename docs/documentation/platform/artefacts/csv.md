@@ -1,10 +1,12 @@
 # Comma-Separated Values 
 
-> File extension: `*.csv`
-
 ## Overview:
 
 CSV (Comma-Separated Values) files are commonly used for tabular data storage, and they serve various use cases within the __codbex__ platform. Here are some use cases for `*.csv` files within the platform, especially for predefined data load:
+
+::: tip
+File extension: `*.csv`
+:::
 
 ### Data Import and Export:
 

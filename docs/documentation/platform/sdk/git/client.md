@@ -4,7 +4,7 @@ The Git Client API provides developers with a set of functions to interact with 
 
 ## Basic Usage
 
-The following example demonstrates the basic usage of the Git Client API in ECMA6:
+The following example demonstrates the basic usage of the Git Client API:
 
 ```javascript
 import { client } from "sdk/git"

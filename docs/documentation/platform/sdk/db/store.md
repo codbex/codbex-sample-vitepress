@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `Store`` API provides simple methods to interact with a data store. It allows you to save, retrieve, list, and remove entries from the data store.
+The `Store` API provides simple methods to interact with a data store. It allows you to save, retrieve, list, and remove entries from the data store.
 
 ## Methods
 

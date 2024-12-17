@@ -1,10 +1,12 @@
 # Markdown 
 
-> File extensions: `*.markdown`, `*.md`
-
 ## Overview:
 
 The __codbex__ platform provides robust support for the Markdown wiki format, empowering users to seamlessly create, edit, and manage Markdown files directly within the platform. This support enhances collaborative development and documentation workflows, offering a flexible and familiar markup language for content creation.
+
+::: tip
+File extensions: `*.markdown`, `*.md`
+:::
 
 ## Key Features:
 
