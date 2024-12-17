@@ -12,7 +12,6 @@ editLink: false
 import { withBase } from 'vitepress'
 import { data as posts } from '/data/news.data'
 import getSorted from '/.vitepress/theme/utils/getSorted';
-import { getMember } from '/.vitepress/theme/utils/membersUtils';
 
 const sortedPosts = getSorted( posts );
 </script>
@@ -21,6 +20,8 @@ const sortedPosts = getSorted( posts );
   <ul class="post-list">
     <li class="post-item" v-for="post of sortedPosts">
       <p class="post-meta">
+        <img src="/logo.svg" alt="codbex" class="author-image" />
+        <span class="post-author">codbex</span>&nbsp;&nbsp;
         <span class="post-date">{{ new Date(post.frontmatter.date).toDateString() }}</span>
       </p>
       <h4 class="post-title"><a :href="withBase(post.url)">{{ post.frontmatter.title }}</a></h4>
