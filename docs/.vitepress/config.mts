@@ -134,7 +134,8 @@ export default defineConfig({
             { text: 'Getting Started', link: '/documentation/getting-started' },
             {
               text: 'Configurations',
-              link: '/documentation/configurations',
+              link: '/documentation/configurations/',
+              collapsed: true,
               items: [
                 {
                   text: 'Basic Authentication',
@@ -409,8 +410,8 @@ export default defineConfig({
                 }
               ]
             },
-            { text: 'Widgets', link: '/documentation/platform/widgets' },
-            { text: 'Services', link: '/documentation/platform/services' }
+            { text: 'Widgets', link: '/documentation/platform/widgets', target: '_blank' },
+            { text: 'Services', link: '/documentation/platform/services', target: '_blank' }
             // { text: 'Templates', link: '/documentation/platform/templates' }
           ]
         },
